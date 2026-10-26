@@ -77,3 +77,7 @@ test('Upstream failures retain technical analysis when financials unavailable',a
  const fail=await handle(new Request('https://api.test/api/stock?symbol=AAPL'),{}, {waitUntil:()=>{}},async()=>new Response('limited',{status:429}));assert.equal(fail.status,429);
 });
 test('Complete assembly retains quote currency separately from financial currency',()=>{const d=assembleStock(chart(),finance({currency:'CNY'}),'AAPL',now);assert.equal(d.currency,'USD');assert.equal(d.fundamentals.currency,'CNY');assert.equal(d.score.coverage,100);assert.equal(d.fundamentals.valuation.pe,null);});
+test('Provider HTTP-200 errors are not treated as successful data or cached',async()=>{
+ const response=await handle(new Request('https://api.test/api/stock?symbol=ZZZZZ'),{}, {waitUntil:()=>{}},async()=>Response.json({chart:{result:null,error:{code:'Not Found',description:'Unknown symbol'}}}));assert.equal(response.status,404);
+ const p=chart();p.chart.result[0].meta.instrumentType='ETF';assert.throws(()=>parseChart(p,'SPY',now),e=>e.status===400);
+});

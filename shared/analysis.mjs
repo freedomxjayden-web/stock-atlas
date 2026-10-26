@@ -80,11 +80,12 @@ export function score(t,f) {
   const available=items.filter(x=>x.available),coverage=available.reduce((a,x)=>a+x.weight,0),fundCoverage=available.filter(x=>!['趨勢','動能'].includes(x.group)).reduce((a,x)=>a+x.weight,0),earned=available.reduce((a,x)=>a+x.points,0);
   return {total:coverage>=60&&fundCoverage>=20?Math.round(earned/coverage*100):null,earned,coverage,fundCoverage,items,reason:coverage>=60&&fundCoverage>=20?null:'資料不足：須覆蓋至少 60 分權重，並包含至少 20 分基本面權重。'};
 }
-function exchangeDate(stamp,tz){return new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(stamp));}
+const dateFormats=new Map();
+function exchangeDate(stamp,tz){if(!dateFormats.has(tz))dateFormats.set(tz,new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}));return dateFormats.get(tz).format(new Date(stamp));}
 export function parseChart(payload,symbol,now=Date.now()) {
-  const result=payload?.chart?.result?.[0];if(!result||payload.chart.error)throw new Error('找不到此股票的價格資料，請核對代號。');
+  const result=payload?.chart?.result?.[0];if(!result||payload.chart.error){const error=new Error('找不到此股票的價格資料，請核對代號。');error.status=404;throw error;}
   const m=result.meta??{},q=result.indicators?.quote?.[0];
-  if(!q||m.instrumentType!=='EQUITY')throw new Error('第一版只分析港股及美股股票，暫不支援此類證券。');
+  if(!q||m.instrumentType!=='EQUITY'){const error=new Error('第一版只分析港股及美股股票，暫不支援此類證券。');error.status=400;throw error;}
   const tz=m.exchangeTimezoneName??(symbol.endsWith('.HK')?'Asia/Hong_Kong':'America/New_York');
   const today=exchangeDate(now,tz),adj=result.indicators?.adjclose?.[0]?.adjclose??[];
   let usedRaw=false;

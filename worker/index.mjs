@@ -9,6 +9,8 @@ export async function providerJson(url,kind,env,ctx,fetcher=fetch) {
   const response=await fetcher(url,{headers:{'User-Agent':'Mozilla/5.0','Accept':'application/json'},signal:AbortSignal.timeout(14000)});
   if(!response.ok)throw new ApiError(response.status===404?404:response.status===429?429:502,response.status===404?'找不到這個股票代號。':response.status===429?'資料來源暫時限流，請稍後重試。':'資料來源暫時未能回應，請稍後重試。');
   const payload=await response.json();
+  const problem=payload?.chart?.error??payload?.timeseries?.error;
+  if(problem)throw new ApiError(String(problem.code).toLowerCase().includes('not found')?404:502,'供應商未提供此股票資料，請核對代號或稍後再試。');
   const envelope={payload,fetchedAt:new Date().toISOString(),cached:false};
   if(cache){const stored=new Response(JSON.stringify(envelope),{headers:{'Content-Type':'application/json','Cache-Control':`public, max-age=${kind==='chart'?300:86400}`}});ctx.waitUntil(cache.put(key,stored).catch(()=>{}));}
   return envelope;
@@ -33,7 +35,7 @@ export async function handle(request,env={},ctx={waitUntil:p=>p},fetcher=fetch){
     const finUrl=`https://query1.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/${code}?type=${FUND_TYPES.join(',')}&period1=${period1}&period2=${period2}`;
     const [chart,fin]=await Promise.allSettled([providerJson(chartUrl,'chart',env,ctx,fetcher),providerJson(finUrl,'financials',env,ctx,fetcher)]);
     if(chart.status==='rejected')throw chart.reason;
-    const result=assembleStock(chart.value.payload,fin.status==='fulfilled'?fin.value.payload:null,symbol,now);
+    const result=assembleStock(chart.value.payload,fin.status==='fulfilled'?fin.value.payload:null,symbol,Date.now());
     if(fin.status==='rejected')result.fundamentals.missing.push('財務資料服務暫時無法連線；價格與技術分析仍可使用。');
     result.cache={price:{cached:chart.value.cached,fetchedAt:chart.value.fetchedAt,ttl:300},financials:fin.status==='fulfilled'?{cached:fin.value.cached,fetchedAt:fin.value.fetchedAt,ttl:86400}:null};
     return json(result);

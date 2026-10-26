@@ -2,6 +2,8 @@
 
 繁體中文股票術語資料庫及港股／美股中長線研究網站。原生 JavaScript 前端部署於 GitHub Pages；Cloudflare Worker 取得公開價格及年度財務資料。
 
+**網站：https://freedomxjayden-web.github.io/stock-atlas/**
+
 ## 已包含
 
 - 200 個詳細術語，8 類各 25 個，附中英文、例子、公式（適用時）、注意事項、相關術語及延伸參考。
@@ -26,7 +28,7 @@ npm ci
 npm run worker:dev
 ```
 
-`site/config.js` 的 `API_BASE` 預設為空，本機使用同源 `/api`。正式 Pages 在未設定 API 時會明確顯示尚未連接，術語及收藏繼續可用。
+`site/config.js` 已指向正式 Worker。若要單獨測試本機資料轉接層，可暫時將 `API_BASE` 設為空字串，使用同源 `/api`；發佈時恢復正式網址。正式 Pages 在未設定 API 時會明確顯示尚未連接，術語及收藏繼續可用。
 
 ## 部署 Cloudflare Workers
 

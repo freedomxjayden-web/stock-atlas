@@ -48,7 +48,7 @@ function openTerm(id){
  $('#close-dialog').addEventListener('click',closeTerm);
  $('#share-term').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);toast('術語連結已複製。');}catch{toast('可複製瀏覽器網址分享這個術語。');}});
 }
-function closeTerm(){dialog.close();location.hash=state.returnRoute;}
+function closeTerm(){dialog.close();history.replaceState(null,'',state.returnRoute);route();}
 function researchShell(symbol=''){
  main.innerHTML=pageTitle('FROM KNOWLEDGE TO RESEARCH','股票分析','由數據出發，用知識理解一家公司的表現。','港股 HK &nbsp;／&nbsp; 美股 US')+`<section class="hero research-hero"><div class="eyebrow">ONE SYMBOL. A CLEARER PICTURE.</div><h2>下一隻想研究的股票，是哪一隻？</h2><p>輸入股票代號，查看走勢、基本面及有依據的中長線觀察分。</p><form class="stock-form" id="stock-form"><label class="search-wrap">${icon('search')}<input id="stock-input" aria-label="股票代號" placeholder="例如：700、9988、AAPL、NVDA" value="${esc(symbol)}" autocomplete="off" spellcheck="false" maxlength="16" required></label><button class="primary-button" type="submit">開始分析 ${icon('arrow')}</button></form><div class="suggestions"><span>從這些開始</span>${['700','9988','AAPL','NVDA','MSFT'].map(s=>`<button type="button" data-symbol="${s}">${s}</button>`).join('')}</div></section><div id="stock-result"></div>`;
  $('#stock-form').addEventListener('submit',e=>{e.preventDefault();const symbol=$('#stock-input').value.trim();if(!symbol)return;const next=`#/analysis?symbol=${encodeURIComponent(symbol)}`;if(location.hash===next)loadStock(symbol,true);else location.hash=next;});
