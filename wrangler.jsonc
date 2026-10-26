@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "stock-atlas-api",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGINS": "https://freedomxjayden-web.github.io,http://localhost:8787,http://127.0.0.1:8787"
+  },
+  "ratelimits": [{
+    "name": "RATE_LIMITER",
+    "namespace_id": "1782601",
+    "simple": {"limit": 30, "period": 60}
+  }],
+  "observability": {"enabled": false}
+}

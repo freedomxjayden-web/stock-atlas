@@ -1,0 +1,17 @@
+{
+  "name": "stock-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "繁體中文股票術語庫及港美股分析",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate && npm test",
+    "deploy:worker": "wrangler deploy",
+    "worker:dev": "wrangler dev --port 8788"
+  },
+  "devDependencies": {"wrangler": "4.152.0"}
+}

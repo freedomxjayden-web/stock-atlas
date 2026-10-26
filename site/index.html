@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#103c32"><meta name="description" content="200 個詳細股票術語，港股及美股技術與基本面分析。用淺白文字，讀懂市場數字。">
+  <title>Stock Atlas｜看懂市場，從這裏開始</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#main">跳至主要內容</a>
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#/glossary" aria-label="Stock Atlas 首頁"><span class="brand-mark"><i></i><i></i><i></i></span><span>Stock Atlas<small>你的股票知識地圖</small></span></a>
+  <div class="nav-label">探索你的投資視野</div>
+  <nav aria-label="主要導覽">
+    <a href="#/glossary" data-nav="glossary"><span data-icon="book"></span>術語資料庫<span class="nav-count">200</span></a>
+    <a href="#/analysis" data-nav="analysis"><span data-icon="chart"></span>股票分析<span class="nav-new">港・美</span></a>
+    <a href="#/favorites" data-nav="favorites"><span data-icon="bookmark"></span>我的收藏<span id="fav-count"></span></a>
+    <a href="#/method" data-nav="method"><span data-icon="compass"></span>分析方法</a>
+  </nav>
+  <div class="nav-label category-nav-label">知識分類</div>
+  <div id="category-nav" class="category-nav"></div>
+  <div class="sidebar-note"><span data-icon="sprout"></span><strong>每次讀懂一點，<br>研究就更有方向。</strong><p>把術語與真實市場數據連起來。</p><a href="#/analysis">開始研究一隻股票 <span>↗</span></a></div>
+  <div class="sidebar-footer"><span class="status-dot"></span>知識有依據・數據有來源<span>V1.0</span></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><button id="menu-button" class="icon-button mobile-menu" aria-label="開啟選單" aria-expanded="false"><span data-icon="menu"></span></button><div class="breadcrumb">探索 <span>/</span> <strong id="breadcrumb">術語資料庫</strong></div><div class="topbar-right"><span class="topbar-note"><span class="status-dot"></span>理解每個數字背後的意思</span><a href="#/method" class="help-link" aria-label="查看資料及分析方法">?</a></div></header>
+  <main id="main" tabindex="-1"><div class="loading-state">正在打開你的知識地圖…</div></main>
+  <footer class="site-footer"><span>© <span id="year"></span> Stock Atlas <span class="footer-separator">/</span> 理解，再判斷。</span><a href="#/method">資料來源與評分方法 ↗</a></footer>
+</div>
+<dialog id="term-dialog" aria-labelledby="term-title"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="./app.js"></script>
+</body></html>

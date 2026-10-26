@@ -1,0 +1,4402 @@
+[
+  {
+    "id": "t001",
+    "category": "基礎入門",
+    "term": "股票",
+    "en": "Stock",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "代表對公司的部分擁有權，股東可按持股享有權益。",
+    "example": "持有公司一萬股，不等於可直接提取公司資產。",
+    "formula": null,
+    "caution": "股價會跌，公司清盤時普通股股東通常最後受償。",
+    "related": [
+      "t002",
+      "t003"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t002",
+    "category": "基礎入門",
+    "term": "普通股",
+    "en": "Common Stock",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "一般具投票權、股息及剩餘資產分配權的股份。",
+    "example": "公司宣派每股一元股息，持有一百股可獲一百元。",
+    "formula": null,
+    "caution": "股息由公司決定，並非保證派發。",
+    "related": [
+      "t003",
+      "t004"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t003",
+    "category": "基礎入門",
+    "term": "優先股",
+    "en": "Preferred Stock",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "在股息或清盤分配上較普通股優先的股份。",
+    "example": "某優先股約定固定股息，但可能不附投票權。",
+    "formula": null,
+    "caution": "可贖回、累積股息等條款因產品而異。",
+    "related": [
+      "t004",
+      "t005"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t004",
+    "category": "基礎入門",
+    "term": "股東",
+    "en": "Shareholder",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "持有公司股份的個人或機構。",
+    "example": "退休基金與散戶均可成為上市公司股東。",
+    "formula": null,
+    "caution": "透過券商持有時，行使權利須留意代辦程序。",
+    "related": [
+      "t005",
+      "t006"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t005",
+    "category": "基礎入門",
+    "term": "上市",
+    "en": "Listing",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "證券獲准在交易所買賣的程序與狀態。",
+    "example": "公司在港交所上市後，投資者可透過券商交易。",
+    "formula": null,
+    "caution": "上市不代表交易所保證公司質素。",
+    "related": [
+      "t006",
+      "t007"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t006",
+    "category": "基礎入門",
+    "term": "首次公開招股",
+    "en": "Initial Public Offering",
+    "abbr": "IPO",
+    "level": "入門",
+    "explanation": "公司首次向公眾發售股份，通常與首次上市相關。",
+    "example": "新股以每股十元公開招股，投資者申請認購。",
+    "formula": null,
+    "caution": "招股價不保證低於上市後市價。",
+    "related": [
+      "t007",
+      "t008"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t007",
+    "category": "基礎入門",
+    "term": "市值",
+    "en": "Market Capitalization",
+    "abbr": "Market Cap",
+    "level": "入門",
+    "explanation": "市場對公司已發行股份總價值的估算。",
+    "example": "股價十元、已發行一億股，市值約十億元。",
+    "formula": "股價 × 已發行股份數目",
+    "caution": "不同股本類別及存託憑證可能需要換算。",
+    "related": [
+      "t008",
+      "t009"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t008",
+    "category": "基礎入門",
+    "term": "流通股",
+    "en": "Shares Outstanding",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "已發行並由股東持有的股份，通常不包括庫存股。",
+    "example": "公司回購並註銷股份後，流通股數可能下降。",
+    "formula": null,
+    "caution": "不要與只計公眾可交易股份的自由流通量混淆。",
+    "related": [
+      "t009",
+      "t010"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t009",
+    "category": "基礎入門",
+    "term": "自由流通量",
+    "en": "Free Float",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "市場上可供公眾投資者自由交易的股份數量或比例。",
+    "example": "創辦人長期持有的控制股一般不納入自由流通量。",
+    "formula": "自由流通股份 ÷ 已發行股份",
+    "caution": "指數公司對排除持股的定義可能不同。",
+    "related": [
+      "t010",
+      "t011"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t010",
+    "category": "基礎入門",
+    "term": "股息",
+    "en": "Dividend",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "公司向股東分配的現金或其他資產。",
+    "example": "公司派發每股零點五元現金股息。",
+    "formula": null,
+    "caution": "收息同時須考慮股價變動與稅項。",
+    "related": [
+      "t011",
+      "t012"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t011",
+    "category": "基礎入門",
+    "term": "除息日",
+    "en": "Ex-Dividend Date",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "一般在此日或之後買入股份，便無權收取該次股息。",
+    "example": "除息日才買入，通常收不到已宣派的該次股息。",
+    "formula": null,
+    "caution": "交收制度不同，須以市場及公司公告為準。",
+    "related": [
+      "t012",
+      "t013"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t012",
+    "category": "基礎入門",
+    "term": "派息日",
+    "en": "Payment Date",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "公司實際支付已宣派股息的日期。",
+    "example": "公司五月除息、六月派息，現金在六月支付。",
+    "formula": null,
+    "caution": "券商入帳日期可能稍後。",
+    "related": [
+      "t013",
+      "t014"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t013",
+    "category": "基礎入門",
+    "term": "送股",
+    "en": "Bonus Issue",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "公司按持股比例免費向現有股東發行股份。",
+    "example": "十送一後，一千股變成一千一百股。",
+    "formula": null,
+    "caution": "股數增加不等於股東總財富立即增加。",
+    "related": [
+      "t014",
+      "t015"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t014",
+    "category": "基礎入門",
+    "term": "拆股",
+    "en": "Stock Split",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "按比例增加股數並相應降低每股價格。",
+    "example": "一拆二後，一股一百元變兩股約五十元。",
+    "formula": null,
+    "caution": "比較歷史價格時應使用一致復權口徑。",
+    "related": [
+      "t015",
+      "t016"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t015",
+    "category": "基礎入門",
+    "term": "合股",
+    "en": "Reverse Stock Split",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "按比例減少股數並相應提高每股價格。",
+    "example": "十合一後，一千股變一百股。",
+    "formula": null,
+    "caution": "合股本身不改善盈利或公司價值。",
+    "related": [
+      "t016",
+      "t017"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t016",
+    "category": "基礎入門",
+    "term": "供股",
+    "en": "Rights Issue",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "向現有股東按比例提供認購新股的權利。",
+    "example": "每持有兩股可按指定價格認購一股新股。",
+    "formula": null,
+    "caution": "不參與或出售供股權，持股比例可能被攤薄。",
+    "related": [
+      "t017",
+      "t018"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t017",
+    "category": "基礎入門",
+    "term": "配股",
+    "en": "Share Placement",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "向指定投資者發行或出售股份的集資安排。",
+    "example": "公司折讓配售新股予機構投資者。",
+    "formula": null,
+    "caution": "新股配售可能攤薄每股盈利與投票權。",
+    "related": [
+      "t018",
+      "t019"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t018",
+    "category": "基礎入門",
+    "term": "回購",
+    "en": "Share Buyback",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "公司使用資金買回自己的股份。",
+    "example": "公司在市場買入並註銷股份，股數隨之減少。",
+    "formula": null,
+    "caution": "回購消耗現金，也可能在高估時進行。",
+    "related": [
+      "t019",
+      "t020"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t019",
+    "category": "基礎入門",
+    "term": "攤薄",
+    "en": "Dilution",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "新增股份或潛在股份使原有股東的比例或每股權益下降。",
+    "example": "原有一百股佔公司百分之一，增發後佔比可能下降。",
+    "formula": null,
+    "caution": "要同時看集資帶來的資產與盈利效益。",
+    "related": [
+      "t020",
+      "t021"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t020",
+    "category": "基礎入門",
+    "term": "藍籌股",
+    "en": "Blue Chip",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "通常指規模大、歷史較長、較具代表性的上市公司。",
+    "example": "大型指數成分股常被市場稱為藍籌。",
+    "formula": null,
+    "caution": "藍籌並不代表低風險或不會下跌。",
+    "related": [
+      "t021",
+      "t022"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t021",
+    "category": "基礎入門",
+    "term": "成長股",
+    "en": "Growth Stock",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "市場預期營收或盈利可較快增長的股票。",
+    "example": "投資者因雲端業務增長而給予公司較高估值。",
+    "formula": null,
+    "caution": "增長放慢時，高估值可能迅速下調。",
+    "related": [
+      "t022",
+      "t023"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t022",
+    "category": "基礎入門",
+    "term": "價值股",
+    "en": "Value Stock",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "相對基本面被認為價格偏低的股票。",
+    "example": "股價低於投資者估算的合理價值而被關注。",
+    "formula": null,
+    "caution": "便宜可能反映結構性問題，形成價值陷阱。",
+    "related": [
+      "t023",
+      "t024"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t023",
+    "category": "基礎入門",
+    "term": "收息股",
+    "en": "Income Stock",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "投資者主要因較穩定股息而持有的股票。",
+    "example": "成熟公用事業公司常被用作收息觀察。",
+    "formula": null,
+    "caution": "股息可被削減，高息率也可能源於股價急跌。",
+    "related": [
+      "t024",
+      "t025"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t024",
+    "category": "基礎入門",
+    "term": "交易所買賣基金",
+    "en": "Exchange-Traded Fund",
+    "abbr": "ETF",
+    "level": "入門",
+    "explanation": "在交易所交易、持有一籃子資產的基金。",
+    "example": "一隻追蹤指數的 ETF 可同時持有多家公司。",
+    "formula": null,
+    "caution": "需留意管理費、追蹤誤差及產品結構。",
+    "related": [
+      "t025",
+      "t001"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t025",
+    "category": "基礎入門",
+    "term": "美國存託憑證",
+    "en": "American Depositary Receipt",
+    "abbr": "ADR",
+    "level": "入門",
+    "explanation": "代表境外公司股份、在美國交易的存託憑證。",
+    "example": "一份 ADR 可能代表八股原上市地普通股。",
+    "formula": null,
+    "caution": "比較每股盈利及股價時，必須核對換股比例。",
+    "related": [
+      "t001",
+      "t002"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Stocks",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+      }
+    ]
+  },
+  {
+    "id": "t026",
+    "category": "估值分析",
+    "term": "市盈率",
+    "en": "Price-to-Earnings Ratio",
+    "abbr": "P/E",
+    "level": "入門",
+    "explanation": "股價相對每股盈利的倍數，反映市場願付多少價格購買盈利。",
+    "example": "股價一百元、年度每股盈利五元，市盈率為二十倍。",
+    "formula": "股價 ÷ 每股盈利",
+    "caution": "虧損時通常不具比較意義；須分清年度、滾動及預測口徑。",
+    "related": [
+      "t027",
+      "t028"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t027",
+    "category": "估值分析",
+    "term": "預測市盈率",
+    "en": "Forward P/E",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "用未來預測盈利計算的市盈率。",
+    "example": "股價一百元、預測每股盈利十元，預測市盈率十倍。",
+    "formula": "股價 ÷ 預測每股盈利",
+    "caution": "預測可能被調低，不能視為已實現盈利。",
+    "related": [
+      "t028",
+      "t029"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t028",
+    "category": "估值分析",
+    "term": "滾動市盈率",
+    "en": "Trailing P/E",
+    "abbr": "TTM P/E",
+    "level": "入門",
+    "explanation": "用最近十二個月盈利計算的市盈率。",
+    "example": "把最近四季每股盈利合計，再除入股價。",
+    "formula": "股價 ÷ 最近十二個月每股盈利",
+    "caution": "季報缺漏或一次性收益會影響可比性。",
+    "related": [
+      "t029",
+      "t030"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t029",
+    "category": "估值分析",
+    "term": "市帳率",
+    "en": "Price-to-Book Ratio",
+    "abbr": "P/B",
+    "level": "入門",
+    "explanation": "股價相對每股帳面淨資產的倍數。",
+    "example": "股價八元、每股淨資產十元，市帳率零點八倍。",
+    "formula": "股價 ÷ 每股淨資產",
+    "caution": "帳面資產不一定可按帳面值變現。",
+    "related": [
+      "t030",
+      "t031"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t030",
+    "category": "估值分析",
+    "term": "市銷率",
+    "en": "Price-to-Sales Ratio",
+    "abbr": "P/S",
+    "level": "入門",
+    "explanation": "公司市值相對營業收入的倍數。",
+    "example": "市值五十億、年收入十億，市銷率五倍。",
+    "formula": "市值 ÷ 年度收入",
+    "caution": "收入高不代表能賺錢，仍需看利潤率。",
+    "related": [
+      "t031",
+      "t032"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t031",
+    "category": "估值分析",
+    "term": "股息率",
+    "en": "Dividend Yield",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "股息相對股價的比例。",
+    "example": "過去一年每股派四元、股價一百元，歷史股息率百分之四。",
+    "formula": "每股年度股息 ÷ 股價 × 100%",
+    "caution": "歷史或預測口徑不同，特別股息不可當作經常派息。",
+    "related": [
+      "t032",
+      "t033"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t032",
+    "category": "估值分析",
+    "term": "派息比率",
+    "en": "Dividend Payout Ratio",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "盈利中用作派息的比例。",
+    "example": "每股盈利五元、派息兩元，比率為百分之四十。",
+    "formula": "普通股股息 ÷ 普通股股東盈利 × 100%",
+    "caution": "超過百分之一百的派息可能不可持續。",
+    "related": [
+      "t033",
+      "t034"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t033",
+    "category": "估值分析",
+    "term": "盈利收益率",
+    "en": "Earnings Yield",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "每股盈利相對股價的比例，正盈利時是市盈率的倒數。",
+    "example": "市盈率二十倍，盈利收益率約百分之五。",
+    "formula": "每股盈利 ÷ 股價 × 100%",
+    "caution": "會計盈利不等於股東可立即收到的現金。",
+    "related": [
+      "t034",
+      "t035"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t034",
+    "category": "估值分析",
+    "term": "企業價值",
+    "en": "Enterprise Value",
+    "abbr": "EV",
+    "level": "中階",
+    "explanation": "衡量整項業務價值的指標，常把股權與淨負債合併考慮。",
+    "example": "收購公司除支付股權外，也可能承接債務。",
+    "formula": "市值 ＋ 債務 ＋ 優先股 ＋ 非控股權益 − 現金",
+    "caution": "具體定義因資料商而異，金融企業尤其不宜直接套用。",
+    "related": [
+      "t035",
+      "t036"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t035",
+    "category": "估值分析",
+    "term": "企業價值倍數",
+    "en": "EV to EBITDA",
+    "abbr": "EV/EBITDA",
+    "level": "中階",
+    "explanation": "企業價值相對未扣利息、稅項、折舊及攤銷盈利的倍數。",
+    "example": "EV 一百億、EBITDA 十億，倍數為十倍。",
+    "formula": "企業價值 ÷ EBITDA",
+    "caution": "忽略資本開支及營運資金需求，不能單獨衡量現金回報。",
+    "related": [
+      "t036",
+      "t037"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t036",
+    "category": "估值分析",
+    "term": "市盈增長比率",
+    "en": "Price/Earnings-to-Growth Ratio",
+    "abbr": "PEG",
+    "level": "中階",
+    "explanation": "把市盈率與預期盈利增長率結合的估值指標。",
+    "example": "市盈率二十倍、預期增長百分之二十，PEG 約一。",
+    "formula": "市盈率 ÷ 盈利增長率的百分數數值",
+    "caution": "對負增長或不穩定盈利不適用，PEG 一並非普遍合理價。",
+    "related": [
+      "t037",
+      "t038"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t037",
+    "category": "估值分析",
+    "term": "現金流折現",
+    "en": "Discounted Cash Flow",
+    "abbr": "DCF",
+    "level": "中階",
+    "explanation": "將未來預期現金流折算成今天價值的估值方法。",
+    "example": "五年後收到的一百元，今天價值通常低於一百元。",
+    "formula": "現值 ＝ 未來現金流 ÷ (1＋折現率)^期數",
+    "caution": "估值對增長、折現率及終值假設十分敏感。",
+    "related": [
+      "t038",
+      "t039"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t038",
+    "category": "估值分析",
+    "term": "折現率",
+    "en": "Discount Rate",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "把未來金額換算成現值時使用的回報要求。",
+    "example": "風險增加時，投資者可能要求更高折現率。",
+    "formula": null,
+    "caution": "折現率應與現金流幣種及風險一致。",
+    "related": [
+      "t039",
+      "t040"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t039",
+    "category": "估值分析",
+    "term": "加權平均資金成本",
+    "en": "Weighted Average Cost of Capital",
+    "abbr": "WACC",
+    "level": "中階",
+    "explanation": "按股權與債務比例加權的公司資金成本。",
+    "example": "公司結合股本與借貸融資，形成整體資金成本。",
+    "formula": "股權權重×股權成本 ＋ 債務權重×稅後債務成本",
+    "caution": "權重通常使用市值，並須配合合理資本結構。",
+    "related": [
+      "t040",
+      "t041"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t040",
+    "category": "估值分析",
+    "term": "終值",
+    "en": "Terminal Value",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "估值模型中明確預測期以後的業務價值。",
+    "example": "五年 DCF 可用終值表示第六年以後的價值。",
+    "formula": "永續模型終值 ＝ 下一期現金流 ÷ (折現率−增長率)",
+    "caution": "永續增長率必須低於折現率。",
+    "related": [
+      "t041",
+      "t042"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t041",
+    "category": "估值分析",
+    "term": "內在價值",
+    "en": "Intrinsic Value",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "根據業務現金流、資產及風險估計的價值。",
+    "example": "不同投資者對增長假設不同，估值也會不同。",
+    "formula": null,
+    "caution": "這是估算，不是可觀察且唯一的市場真值。",
+    "related": [
+      "t042",
+      "t043"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t042",
+    "category": "估值分析",
+    "term": "安全邊際",
+    "en": "Margin of Safety",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "買入價相對估計價值保留的緩衝。",
+    "example": "估值一百元、以七十元買入，折讓約百分之三十。",
+    "formula": "(估計價值−價格) ÷ 估計價值",
+    "caution": "估值若錯誤，表面折讓未必提供保護。",
+    "related": [
+      "t043",
+      "t044"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t043",
+    "category": "估值分析",
+    "term": "相對估值",
+    "en": "Relative Valuation",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "以同業或歷史估值倍數作比較。",
+    "example": "比較兩間同類零售商的市盈率與增長。",
+    "formula": null,
+    "caution": "會計政策、槓桿及業務組合不同會削弱比較。",
+    "related": [
+      "t044",
+      "t045"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t044",
+    "category": "估值分析",
+    "term": "重估",
+    "en": "Re-rating",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "市場改變願意給予公司的估值倍數。",
+    "example": "盈利不變但市盈率從十倍升至十五倍，股價可能上升。",
+    "formula": null,
+    "caution": "重估也可以向下，並非必然由盈利推動。",
+    "related": [
+      "t045",
+      "t046"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t045",
+    "category": "估值分析",
+    "term": "價值陷阱",
+    "en": "Value Trap",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "看似便宜，實際基本面持續惡化的投資。",
+    "example": "低市盈率公司因核心產品衰退而盈利大跌。",
+    "formula": null,
+    "caution": "需分辨暫時低迷與永久競爭力下降。",
+    "related": [
+      "t046",
+      "t047"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t046",
+    "category": "估值分析",
+    "term": "資產淨值",
+    "en": "Net Asset Value",
+    "abbr": "NAV",
+    "level": "進階",
+    "explanation": "資產減負債後的淨值，常用於基金或資產型公司。",
+    "example": "基金資產一億、負債一千萬，淨值九千萬。",
+    "formula": "資產總值 − 負債總值",
+    "caution": "估值日期與資產流動性會影響可靠程度。",
+    "related": [
+      "t047",
+      "t048"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t047",
+    "category": "估值分析",
+    "term": "折讓",
+    "en": "Discount",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "價格低於某一參考價值的幅度。",
+    "example": "股價八元、每股淨資產十元，帳面折讓百分之二十。",
+    "formula": "(參考價值−價格) ÷ 參考價值",
+    "caution": "必須說明相對招股價、淨值還是其他基準。",
+    "related": [
+      "t048",
+      "t049"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t048",
+    "category": "估值分析",
+    "term": "溢價",
+    "en": "Premium",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "價格高於某一參考價值的幅度。",
+    "example": "收購價比公布前股價高百分之三十，稱收購溢價。",
+    "formula": "(價格−參考價值) ÷ 參考價值",
+    "caution": "不同基準會產生不同溢價數字。",
+    "related": [
+      "t049",
+      "t050"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t049",
+    "category": "估值分析",
+    "term": "自由現金流收益率",
+    "en": "Free Cash Flow Yield",
+    "abbr": "FCF Yield",
+    "level": "進階",
+    "explanation": "自由現金流相對市值或企業價值的比例。",
+    "example": "自由現金流五億、市值一百億，收益率百分之五。",
+    "formula": "自由現金流 ÷ 市值 × 100%",
+    "caution": "要說明股權或企業口徑，並排除不可持續的一次性變動。",
+    "related": [
+      "t050",
+      "t026"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t050",
+    "category": "估值分析",
+    "term": "資本資產定價模型",
+    "en": "Capital Asset Pricing Model",
+    "abbr": "CAPM",
+    "level": "進階",
+    "explanation": "以無風險利率、Beta 及市場風險溢價估算股權回報要求。",
+    "example": "Beta 較高的股票在模型中通常要求較高回報。",
+    "formula": "股權成本 ＝ 無風險利率 ＋ Beta×市場風險溢價",
+    "caution": "模型假設簡化，歷史 Beta 未必代表未來風險。",
+    "related": [
+      "t026",
+      "t027"
+    ],
+    "sources": [
+      {
+        "label": "CFA Institute：Equity Valuation",
+        "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings"
+      }
+    ]
+  },
+  {
+    "id": "t051",
+    "category": "財務報表",
+    "term": "營業收入",
+    "en": "Revenue",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "公司向客戶銷售貨品或服務所確認的收入。",
+    "example": "產品售價一百元並符合確認條件，可形成一百元收入。",
+    "formula": null,
+    "caution": "確認收入的時間不一定等於收取現金的時間。",
+    "related": [
+      "t052",
+      "t053"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t052",
+    "category": "財務報表",
+    "term": "淨利",
+    "en": "Net Income",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "收入扣除各項成本、費用及稅項後的盈利。",
+    "example": "收入一百萬、所有成本費用八十萬，淨利二十萬。",
+    "formula": null,
+    "caution": "比較時須分清歸屬母公司股東或整個集團的口徑。",
+    "related": [
+      "t053",
+      "t054"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t053",
+    "category": "財務報表",
+    "term": "每股盈利",
+    "en": "Earnings Per Share",
+    "abbr": "EPS",
+    "level": "入門",
+    "explanation": "每股普通股所對應的盈利。",
+    "example": "普通股盈利一億、加權平均一億股，EPS 一元。",
+    "formula": "普通股股東盈利 ÷ 加權平均普通股數",
+    "caution": "基本與攤薄 EPS 不同，也須核對 ADR 股份比例。",
+    "related": [
+      "t054",
+      "t055"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t054",
+    "category": "財務報表",
+    "term": "毛利",
+    "en": "Gross Profit",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "收入扣除直接銷售成本後的盈利。",
+    "example": "收入一百元、銷售成本六十元，毛利四十元。",
+    "formula": "收入 − 銷售成本",
+    "caution": "尚未扣除行政、銷售、利息等費用。",
+    "related": [
+      "t055",
+      "t056"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t055",
+    "category": "財務報表",
+    "term": "毛利率",
+    "en": "Gross Margin",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "每一元收入保留多少毛利。",
+    "example": "毛利四十元、收入一百元，毛利率百分之四十。",
+    "formula": "毛利 ÷ 收入 × 100%",
+    "caution": "跨行業差異大，不能直接用來判斷優劣。",
+    "related": [
+      "t056",
+      "t057"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t056",
+    "category": "財務報表",
+    "term": "營業利潤",
+    "en": "Operating Income",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "核心營運扣除營運成本及費用後的盈利。",
+    "example": "毛利扣除研發、銷售與行政費後形成營業利潤。",
+    "formula": null,
+    "caution": "公司對經調整營業利潤的定義可能不同。",
+    "related": [
+      "t057",
+      "t058"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t057",
+    "category": "財務報表",
+    "term": "營業利潤率",
+    "en": "Operating Margin",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "營業利潤佔收入的比例。",
+    "example": "營業利潤十五元、收入一百元，比率百分之十五。",
+    "formula": "營業利潤 ÷ 收入 × 100%",
+    "caution": "會計分類不同時，需先調整才比較。",
+    "related": [
+      "t058",
+      "t059"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t058",
+    "category": "財務報表",
+    "term": "淨利率",
+    "en": "Net Margin",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "淨利佔收入的比例。",
+    "example": "淨利十元、收入一百元，淨利率百分之十。",
+    "formula": "淨利 ÷ 收入 × 100%",
+    "caution": "一次性收益與稅項會扭曲單期表現。",
+    "related": [
+      "t059",
+      "t060"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t059",
+    "category": "財務報表",
+    "term": "資產負債表",
+    "en": "Balance Sheet",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "顯示特定日期的資產、負債及權益。",
+    "example": "年末報表列出公司當日現金、債務及股東權益。",
+    "formula": "資產 ＝ 負債 ＋ 權益",
+    "caution": "它是時點快照，不代表全年平均狀況。",
+    "related": [
+      "t060",
+      "t061"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t060",
+    "category": "財務報表",
+    "term": "損益表",
+    "en": "Income Statement",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "顯示一段期間的收入、費用及盈利。",
+    "example": "年度損益表概括十二個月經營成果。",
+    "formula": null,
+    "caution": "盈利按應計基礎確認，不等於現金流。",
+    "related": [
+      "t061",
+      "t062"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t061",
+    "category": "財務報表",
+    "term": "現金流量表",
+    "en": "Cash Flow Statement",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "按營運、投資與融資活動列示現金流入流出。",
+    "example": "公司賺錢但應收帳款上升，營運現金流仍可能偏弱。",
+    "formula": null,
+    "caution": "需同時看各部分來源，不能只看現金增加。",
+    "related": [
+      "t062",
+      "t063"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t062",
+    "category": "財務報表",
+    "term": "營運現金流",
+    "en": "Operating Cash Flow",
+    "abbr": "OCF",
+    "level": "中階",
+    "explanation": "日常經營活動產生或使用的現金。",
+    "example": "客戶付款減去供應商與員工支出形成營運現金流。",
+    "formula": null,
+    "caution": "應付帳款暫時增加可能令現金流短期改善。",
+    "related": [
+      "t063",
+      "t064"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t063",
+    "category": "財務報表",
+    "term": "自由現金流",
+    "en": "Free Cash Flow",
+    "abbr": "FCF",
+    "level": "中階",
+    "explanation": "營運現金流扣除維持或擴充資產的資本開支後餘額。",
+    "example": "營運現金流十億、資本開支三億，自由現金流七億。",
+    "formula": "營運現金流 − 資本開支",
+    "caution": "不同資料商可能採用不同定義，須核對口徑。",
+    "related": [
+      "t064",
+      "t065"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t064",
+    "category": "財務報表",
+    "term": "資本開支",
+    "en": "Capital Expenditure",
+    "abbr": "CapEx",
+    "level": "中階",
+    "explanation": "購置或改善長期資產的支出。",
+    "example": "公司花一億興建廠房，通常屬資本開支。",
+    "formula": null,
+    "caution": "不會全部立即列作損益表費用。",
+    "related": [
+      "t065",
+      "t066"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t065",
+    "category": "財務報表",
+    "term": "股東權益回報率",
+    "en": "Return on Equity",
+    "abbr": "ROE",
+    "level": "中階",
+    "explanation": "公司利用股東帳面權益產生盈利的能力。",
+    "example": "淨利十億、平均權益一百億，ROE 百分之十。",
+    "formula": "股東淨利 ÷ 平均股東權益 × 100%",
+    "caution": "高槓桿或低權益也會推高比率。",
+    "related": [
+      "t066",
+      "t067"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t066",
+    "category": "財務報表",
+    "term": "資產回報率",
+    "en": "Return on Assets",
+    "abbr": "ROA",
+    "level": "中階",
+    "explanation": "公司利用資產產生盈利的效率。",
+    "example": "淨利五億、平均資產一百億，ROA 百分之五。",
+    "formula": "淨利 ÷ 平均總資產 × 100%",
+    "caution": "金融與非金融企業的資產結構差異很大。",
+    "related": [
+      "t067",
+      "t068"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t067",
+    "category": "財務報表",
+    "term": "投入資本回報率",
+    "en": "Return on Invested Capital",
+    "abbr": "ROIC",
+    "level": "中階",
+    "explanation": "稅後營運盈利相對投入營運資本的回報。",
+    "example": "ROIC 高於資金成本，常被視為創造價值的訊號。",
+    "formula": "稅後營運盈利 ÷ 平均投入資本",
+    "caution": "商譽與超額現金的處理會改變結果。",
+    "related": [
+      "t068",
+      "t069"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t068",
+    "category": "財務報表",
+    "term": "負債權益比率",
+    "en": "Debt-to-Equity Ratio",
+    "abbr": "D/E",
+    "level": "中階",
+    "explanation": "以債務或負債相對股東權益衡量槓桿。",
+    "example": "有息債務五十億、權益一百億，有息債務權益比為百分之五十。",
+    "formula": "指定債務口徑 ÷ 股東權益",
+    "caution": "須說明分子是有息債務還是總負債。",
+    "related": [
+      "t069",
+      "t070"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t069",
+    "category": "財務報表",
+    "term": "流動比率",
+    "en": "Current Ratio",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "流動資產相對流動負債的比例。",
+    "example": "流動資產二百萬、流動負債一百萬，比率為二。",
+    "formula": "流動資產 ÷ 流動負債",
+    "caution": "存貨未必容易變現，較高不一定較好。",
+    "related": [
+      "t070",
+      "t071"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t070",
+    "category": "財務報表",
+    "term": "速動比率",
+    "en": "Quick Ratio",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "剔除存貨等較難迅速變現項目後的短期償債指標。",
+    "example": "大量現金和應收帳款可提高速動比率。",
+    "formula": "(現金＋短期投資＋應收帳款) ÷ 流動負債",
+    "caution": "應收帳款的可收回程度仍需檢查。",
+    "related": [
+      "t071",
+      "t072"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t071",
+    "category": "財務報表",
+    "term": "利息保障倍數",
+    "en": "Interest Coverage",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "營運盈利可覆蓋利息支出的倍數。",
+    "example": "EBIT 三千萬、利息一千萬，保障倍數三倍。",
+    "formula": "EBIT ÷ 利息支出",
+    "caution": "盈利波動大或有到期本金壓力時，單看此數不足。",
+    "related": [
+      "t072",
+      "t073"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t072",
+    "category": "財務報表",
+    "term": "折舊與攤銷",
+    "en": "Depreciation and Amortization",
+    "abbr": "D&A",
+    "level": "進階",
+    "explanation": "將有形及無形資產成本分配至使用期間的會計費用。",
+    "example": "機器成本分五年逐步列作折舊。",
+    "formula": null,
+    "caution": "非現金費用仍反映資產消耗，不能完全忽略。",
+    "related": [
+      "t073",
+      "t074"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t073",
+    "category": "財務報表",
+    "term": "息稅折舊攤銷前盈利",
+    "en": "EBITDA",
+    "abbr": "EBITDA",
+    "level": "進階",
+    "explanation": "扣利息、稅項、折舊及攤銷之前的盈利近似指標。",
+    "example": "營業利潤加回折舊攤銷，可近似 EBITDA。",
+    "formula": "EBIT ＋ 折舊 ＋ 攤銷",
+    "caution": "不是現金流，亦非所有公司都用同一調整方法。",
+    "related": [
+      "t074",
+      "t075"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t074",
+    "category": "財務報表",
+    "term": "商譽減值",
+    "en": "Goodwill Impairment",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "收購形成的商譽價值下降時確認的損失。",
+    "example": "收購業務表現不及預期，公司可能減記商譽。",
+    "formula": null,
+    "caution": "雖多為非現金損失，也可能反映原收購價過高。",
+    "related": [
+      "t075",
+      "t051"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t075",
+    "category": "財務報表",
+    "term": "按年增長",
+    "en": "Year-over-Year Growth",
+    "abbr": "YoY",
+    "level": "進階",
+    "explanation": "與上一年度相同期間相比的增減幅度。",
+    "example": "本年收入一百二十元、去年一百元，按年增長百分之二十。",
+    "formula": "(本期數值 ÷ 上年同期數值 − 1) × 100%",
+    "caution": "上期為零或負數時，常規百分比可能失去意義。",
+    "related": [
+      "t051",
+      "t052"
+    ],
+    "sources": [
+      {
+        "label": "SEC：Beginners’ Guide to Financial Statements",
+        "url": "https://www.sec.gov/about/reports-publications/investorpubsbegfinstmtguide"
+      }
+    ]
+  },
+  {
+    "id": "t076",
+    "category": "技術分析",
+    "term": "移動平均線",
+    "en": "Moving Average",
+    "abbr": "MA",
+    "level": "入門",
+    "explanation": "把最近若干期價格平均，用來觀察趨勢。",
+    "example": "MA20 是最近二十個交易日價格的平均值。",
+    "formula": "最近 N 期價格總和 ÷ N",
+    "caution": "屬滯後指標，橫行市容易反覆出現訊號。",
+    "related": [
+      "t077",
+      "t078"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t077",
+    "category": "技術分析",
+    "term": "簡單移動平均線",
+    "en": "Simple Moving Average",
+    "abbr": "SMA",
+    "level": "入門",
+    "explanation": "給每一期價格相同權重的移動平均線。",
+    "example": "五日價格為一至五元，SMA5 為三元。",
+    "formula": "最近 N 期收市價總和 ÷ N",
+    "caution": "跳出窗口的舊價格亦會影響均線變化。",
+    "related": [
+      "t078",
+      "t079"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t078",
+    "category": "技術分析",
+    "term": "指數移動平均線",
+    "en": "Exponential Moving Average",
+    "abbr": "EMA",
+    "level": "入門",
+    "explanation": "對較近期價格給予較高權重的均線。",
+    "example": "EMA 通常比同長度 SMA 更快反映新價格。",
+    "formula": "EMA ＝ α×本期價格 ＋ (1−α)×上期EMA；α＝2/(N＋1)",
+    "caution": "初始化方法不同會令早段結果略有差異。",
+    "related": [
+      "t079",
+      "t080"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t079",
+    "category": "技術分析",
+    "term": "相對強弱指數",
+    "en": "Relative Strength Index",
+    "abbr": "RSI",
+    "level": "入門",
+    "explanation": "以升跌幅強度衡量價格動能的零至一百指標。",
+    "example": "RSI14 高於七十，常被描述為進入超買區。",
+    "formula": "RSI ＝ 100 − 100/(1＋平均升幅/平均跌幅)",
+    "caution": "超買可以持續，並不代表股價立即下跌。",
+    "related": [
+      "t080",
+      "t081"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t080",
+    "category": "技術分析",
+    "term": "平滑異同移動平均線",
+    "en": "Moving Average Convergence Divergence",
+    "abbr": "MACD",
+    "level": "入門",
+    "explanation": "利用快慢 EMA 差距及訊號線觀察動能變化。",
+    "example": "常用十二與二十六日 EMA，配九期訊號線。",
+    "formula": "MACD＝EMA12−EMA26；訊號線＝MACD 的 EMA9",
+    "caution": "屬滯後訊號，不宜單獨作買賣判斷。",
+    "related": [
+      "t081",
+      "t082"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t081",
+    "category": "技術分析",
+    "term": "布林通道",
+    "en": "Bollinger Bands",
+    "abbr": "BB",
+    "level": "入門",
+    "explanation": "以均線加減標準差形成價格通道。",
+    "example": "常用二十日均線，上下各兩個標準差。",
+    "formula": "上／下軌 ＝ MA20 ± 2×20期標準差",
+    "caution": "觸及上軌不必然回落，下軌亦不保證反彈。",
+    "related": [
+      "t082",
+      "t083"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t082",
+    "category": "技術分析",
+    "term": "成交量",
+    "en": "Trading Volume",
+    "abbr": "Volume",
+    "level": "入門",
+    "explanation": "指定期間實際成交的股份或合約數。",
+    "example": "某股票一天成交一千萬股。",
+    "formula": null,
+    "caution": "美股與港股數量單位、盤後及整合範圍可能不同。",
+    "related": [
+      "t083",
+      "t084"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t083",
+    "category": "技術分析",
+    "term": "量比",
+    "en": "Volume Ratio",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "當期成交量相對選定平均成交量的倍數。",
+    "example": "全日成交兩千萬股、此前二十日平均一千萬股，量比二倍。",
+    "formula": "當期成交量 ÷ 基準平均成交量",
+    "caution": "未收市的成交量不可直接當作完整全日數比較。",
+    "related": [
+      "t084",
+      "t085"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t084",
+    "category": "技術分析",
+    "term": "支持位",
+    "en": "Support",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "市場觀察價格可能出現較多買盤的區域。",
+    "example": "股價數次在五十元附近止跌，該區被視為支持。",
+    "formula": null,
+    "caution": "支持可被跌穿，價格區域不是保證。",
+    "related": [
+      "t085",
+      "t086"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t085",
+    "category": "技術分析",
+    "term": "阻力位",
+    "en": "Resistance",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "市場觀察價格可能遇到較多沽盤的區域。",
+    "example": "股價多次升至六十元後回落，該區可能形成阻力。",
+    "formula": null,
+    "caution": "突破後的阻力可能轉為支持，仍需驗證。",
+    "related": [
+      "t086",
+      "t087"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t086",
+    "category": "技術分析",
+    "term": "突破",
+    "en": "Breakout",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "價格超越一段交易區間或重要水平。",
+    "example": "價格收市升穿過去數月高位。",
+    "formula": null,
+    "caution": "盤中升穿可能是假突破，需說明判定條件。",
+    "related": [
+      "t087",
+      "t088"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t087",
+    "category": "技術分析",
+    "term": "假突破",
+    "en": "False Breakout",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "價格短暫突破後回到原區間。",
+    "example": "升穿阻力後很快跌回阻力以下。",
+    "formula": null,
+    "caution": "只能事後確認，止蝕也可能遇到跳空。",
+    "related": [
+      "t088",
+      "t089"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t088",
+    "category": "技術分析",
+    "term": "黃金交叉",
+    "en": "Golden Cross",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "短期均線由下向上穿越長期均線。",
+    "example": "五十日均線升穿二百日均線。",
+    "formula": null,
+    "caution": "常見於升勢已發生之後，不能保證延續。",
+    "related": [
+      "t089",
+      "t090"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t089",
+    "category": "技術分析",
+    "term": "死亡交叉",
+    "en": "Death Cross",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "短期均線由上向下穿越長期均線。",
+    "example": "五十日均線跌穿二百日均線。",
+    "formula": null,
+    "caution": "反彈市可能迅速反向，形成反覆訊號。",
+    "related": [
+      "t090",
+      "t091"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t090",
+    "category": "技術分析",
+    "term": "背馳",
+    "en": "Divergence",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "價格與技術指標朝不同方向發展。",
+    "example": "股價創新高但 RSI 未創新高，稱看淡背馳。",
+    "formula": null,
+    "caution": "背馳可能維持很久，並非精確轉向時間表。",
+    "related": [
+      "t091",
+      "t092"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t091",
+    "category": "技術分析",
+    "term": "超買",
+    "en": "Overbought",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "某指標顯示近期升勢較急或動能偏高的狀態。",
+    "example": "RSI 高於七十是常見超買定義。",
+    "formula": null,
+    "caution": "強勢股可能長期超買，並不等於估值昂貴。",
+    "related": [
+      "t092",
+      "t093"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t092",
+    "category": "技術分析",
+    "term": "超賣",
+    "en": "Oversold",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "某指標顯示近期跌勢較急或動能偏低的狀態。",
+    "example": "RSI 低於三十是常見超賣定義。",
+    "formula": null,
+    "caution": "超賣不代表公司便宜或已見底。",
+    "related": [
+      "t093",
+      "t094"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t093",
+    "category": "技術分析",
+    "term": "陰陽燭",
+    "en": "Candlestick",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "以開市、最高、最低及收市價組成的價格圖。",
+    "example": "實體表示開收市差距，影線表示日內高低。",
+    "formula": null,
+    "caution": "紅綠代表升跌的習慣因市場而異，應看圖例。",
+    "related": [
+      "t094",
+      "t095"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t094",
+    "category": "技術分析",
+    "term": "裂口",
+    "en": "Price Gap",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "相鄰交易期間的價格區間出現不連續。",
+    "example": "重大業績公布後，開市價遠高於前一日高位。",
+    "formula": null,
+    "caution": "裂口不一定回補，也可能源於除息或拆股。",
+    "related": [
+      "t095",
+      "t096"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t095",
+    "category": "技術分析",
+    "term": "平均真實波幅",
+    "en": "Average True Range",
+    "abbr": "ATR",
+    "level": "中階",
+    "explanation": "以真實波幅的平均值衡量價格波動範圍。",
+    "example": "ATR 較高代表近期每天價格變動範圍較大。",
+    "formula": "TR＝max(高−低, abs(高−前收), abs(低−前收))",
+    "caution": "ATR 不表示升跌方向，跨股比較宜按價格標準化。",
+    "related": [
+      "t096",
+      "t097"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t096",
+    "category": "技術分析",
+    "term": "隨機指標",
+    "en": "Stochastic Oscillator",
+    "abbr": "%K %D",
+    "level": "進階",
+    "explanation": "比較收市價在近期高低區間的位置。",
+    "example": "收市接近十四日區間頂部時，%K 會較高。",
+    "formula": "%K＝(收市−N期最低)/(N期最高−N期最低)×100",
+    "caution": "平滑及參數不同會產生不同訊號。",
+    "related": [
+      "t097",
+      "t098"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t097",
+    "category": "技術分析",
+    "term": "平衡交易量",
+    "en": "On-Balance Volume",
+    "abbr": "OBV",
+    "level": "進階",
+    "explanation": "依收市升跌將成交量累加或扣減的指標。",
+    "example": "上升日加上當日成交量，下跌日扣減。",
+    "formula": null,
+    "caution": "起始數值任意，重點是方向而非絕對水平。",
+    "related": [
+      "t098",
+      "t099"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t098",
+    "category": "技術分析",
+    "term": "成交量加權平均價",
+    "en": "Volume-Weighted Average Price",
+    "abbr": "VWAP",
+    "level": "進階",
+    "explanation": "按成交量加權的平均成交價格。",
+    "example": "大額成交價對 VWAP 的影響比小額成交大。",
+    "formula": "各筆價格×成交量總和 ÷ 總成交量",
+    "caution": "日內 VWAP 與跨日錨定 VWAP 的範圍不同。",
+    "related": [
+      "t099",
+      "t100"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t099",
+    "category": "技術分析",
+    "term": "趨勢線",
+    "en": "Trendline",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "連接一系列高點或低點以描述走勢的線。",
+    "example": "把數個逐步抬高的低點連起來形成上升趨勢線。",
+    "formula": null,
+    "caution": "畫線帶主觀性，選不同點會得不同結果。",
+    "related": [
+      "t100",
+      "t076"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t100",
+    "category": "技術分析",
+    "term": "復權價格",
+    "en": "Adjusted Price",
+    "abbr": "Adj Close",
+    "level": "進階",
+    "explanation": "按股息、拆合股等公司行動調整的歷史價格序列。",
+    "example": "拆股前的一百元可調整為五十元，以便比較趨勢。",
+    "formula": null,
+    "caution": "復權方法因資料商而異，不是當年實際成交價。",
+    "related": [
+      "t076",
+      "t077"
+    ],
+    "sources": [
+      {
+        "label": "Fidelity：Technical Indicator Guide",
+        "url": "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/overview"
+      }
+    ]
+  },
+  {
+    "id": "t101",
+    "category": "交易機制",
+    "term": "買入價",
+    "en": "Bid Price",
+    "abbr": "Bid",
+    "level": "入門",
+    "explanation": "市場買家願意買入的報價。",
+    "example": "最佳買盤報十元，代表該價格有買入意向。",
+    "formula": null,
+    "caution": "報價可迅速改變，數量亦有限。",
+    "related": [
+      "t102",
+      "t103"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t102",
+    "category": "交易機制",
+    "term": "賣出價",
+    "en": "Ask Price",
+    "abbr": "Ask",
+    "level": "入門",
+    "explanation": "市場賣家願意出售的報價。",
+    "example": "最佳賣盤十點零二元，買家可嘗試在此成交。",
+    "formula": null,
+    "caution": "實際成交價視流動性、訂單種類及速度而定。",
+    "related": [
+      "t103",
+      "t104"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t103",
+    "category": "交易機制",
+    "term": "買賣差價",
+    "en": "Bid-Ask Spread",
+    "abbr": "Spread",
+    "level": "入門",
+    "explanation": "最佳賣出價與最佳買入價的差距。",
+    "example": "買盤十元、賣盤十點零二元，差價兩仙。",
+    "formula": "最佳賣價 − 最佳買價",
+    "caution": "差價較大通常增加立即交易成本。",
+    "related": [
+      "t104",
+      "t105"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t104",
+    "category": "交易機制",
+    "term": "限價盤",
+    "en": "Limit Order",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "指定最高買價或最低賣價的訂單。",
+    "example": "買入限價十元，不會接受高於十元的成交。",
+    "formula": null,
+    "caution": "價格受到控制，但可能無法成交。",
+    "related": [
+      "t105",
+      "t106"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t105",
+    "category": "交易機制",
+    "term": "市價盤",
+    "en": "Market Order",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "按當時可取得的市場價格立即執行的訂單。",
+    "example": "立即買入時，系統逐層配對可用賣盤。",
+    "formula": null,
+    "caution": "不保證成交價格，薄弱市場可能出現大滑價。",
+    "related": [
+      "t106",
+      "t107"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t106",
+    "category": "交易機制",
+    "term": "止蝕盤",
+    "en": "Stop Order",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "觸及指定觸發價後，按訂單條款轉為執行指令。",
+    "example": "股價跌至九元時，觸發預先設定的賣出指令。",
+    "formula": null,
+    "caution": "觸發價不是保證成交價，券商產品支援也不同。",
+    "related": [
+      "t107",
+      "t108"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t107",
+    "category": "交易機制",
+    "term": "止蝕限價盤",
+    "en": "Stop-Limit Order",
+    "abbr": "",
+    "level": "入門",
+    "explanation": "觸及止蝕價後轉為限價盤。",
+    "example": "跌至九元觸發，以不低於八點八元限價賣出。",
+    "formula": null,
+    "caution": "急跌時可能完全無法成交。",
+    "related": [
+      "t108",
+      "t109"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t108",
+    "category": "交易機制",
+    "term": "有效至取消",
+    "en": "Good-Till-Cancelled",
+    "abbr": "GTC",
+    "level": "入門",
+    "explanation": "訂單維持至成交、取消或券商最長有效期限。",
+    "example": "未成交的限價盤可跨交易日保留。",
+    "formula": null,
+    "caution": "券商可能設定期限，企業行動也可能令訂單取消。",
+    "related": [
+      "t109",
+      "t110"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t109",
+    "category": "交易機制",
+    "term": "即時成交否則取消",
+    "en": "Immediate-or-Cancel",
+    "abbr": "IOC",
+    "level": "中階",
+    "explanation": "可立即成交的部分先成交，其餘取消。",
+    "example": "一千股訂單即時成交三百股，餘下七百股取消。",
+    "formula": null,
+    "caution": "部分市場或盤種不提供此條件。",
+    "related": [
+      "t110",
+      "t111"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t110",
+    "category": "交易機制",
+    "term": "全部成交否則取消",
+    "en": "Fill-or-Kill",
+    "abbr": "FOK",
+    "level": "中階",
+    "explanation": "須立即全數成交，否則整筆取消。",
+    "example": "一千股不能即時全數配對，整筆不成交。",
+    "formula": null,
+    "caution": "與容許部分成交的 IOC 不同。",
+    "related": [
+      "t111",
+      "t112"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t111",
+    "category": "交易機制",
+    "term": "每手股數",
+    "en": "Board Lot",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "市場指定的標準交易單位股數。",
+    "example": "某港股每手五百股，買兩手即一千股。",
+    "formula": null,
+    "caution": "每隻股票可能不同，美股通常可逐股交易。",
+    "related": [
+      "t112",
+      "t113"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t112",
+    "category": "交易機制",
+    "term": "碎股",
+    "en": "Odd Lot",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "少於標準交易單位的股份數量。",
+    "example": "每手五百股的股票，持有一百股屬碎股。",
+    "formula": null,
+    "caution": "碎股交易價格、流動性與券商支援可能不同。",
+    "related": [
+      "t113",
+      "t114"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t113",
+    "category": "交易機制",
+    "term": "最低上落價位",
+    "en": "Tick Size",
+    "abbr": "Tick",
+    "level": "中階",
+    "explanation": "報價可變動的最小價格單位。",
+    "example": "最低價位一仙，報價通常按一仙的倍數遞增。",
+    "formula": null,
+    "caution": "交易所可能按價格區間設定不同價位。",
+    "related": [
+      "t114",
+      "t115"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t114",
+    "category": "交易機制",
+    "term": "競價交易",
+    "en": "Auction Trading",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "在指定時段集中訂單，以規則決定成交價。",
+    "example": "開市競價把大量買賣盤集中配對。",
+    "formula": null,
+    "caution": "競價盤種及價格限制須按交易所規則理解。",
+    "related": [
+      "t115",
+      "t116"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t115",
+    "category": "交易機制",
+    "term": "收市競價",
+    "en": "Closing Auction",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "用競價程序決定收市價格的安排。",
+    "example": "追蹤指數的基金可能在收市競價交易。",
+    "formula": null,
+    "caution": "最後成交時間與隨機收市規則依市場而異。",
+    "related": [
+      "t116",
+      "t117"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t116",
+    "category": "交易機制",
+    "term": "持續交易",
+    "en": "Continuous Trading",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "交易時段內持續按價格及時間等規則配對訂單。",
+    "example": "買盤與符合條件的賣盤在交易時段即時配對。",
+    "formula": null,
+    "caution": "停牌或市場機制可能暫停配對。",
+    "related": [
+      "t117",
+      "t118"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t117",
+    "category": "交易機制",
+    "term": "交收",
+    "en": "Settlement",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "成交後交付證券及資金的程序。",
+    "example": "買入股票後按市場交收週期完成款券交換。",
+    "formula": null,
+    "caution": "T+1、T+2 等制度因市場及日期而異。",
+    "related": [
+      "t118",
+      "t119"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t118",
+    "category": "交易機制",
+    "term": "T加一交收",
+    "en": "T+1 Settlement",
+    "abbr": "T+1",
+    "level": "中階",
+    "explanation": "一般在成交日後下一個交收營業日完成交收。",
+    "example": "星期一成交，若無假期通常星期二交收。",
+    "formula": null,
+    "caution": "不是每個市場均採 T+1，假期也影響日期。",
+    "related": [
+      "t119",
+      "t120"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t119",
+    "category": "交易機制",
+    "term": "孖展",
+    "en": "Margin Trading",
+    "abbr": "Margin",
+    "level": "中階",
+    "explanation": "以證券作抵押或借入資金進行交易。",
+    "example": "以自有資金加券商借貸買入股票。",
+    "formula": null,
+    "caution": "虧損及利息會放大，並可能被要求補倉。",
+    "related": [
+      "t120",
+      "t121"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t120",
+    "category": "交易機制",
+    "term": "追繳保證金",
+    "en": "Margin Call",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "帳戶抵押或權益不足時，要求補充資金或減倉。",
+    "example": "股價下跌令抵押值不足，券商發出補倉要求。",
+    "formula": null,
+    "caution": "券商可能在未能及時聯絡客戶前強制平倉。",
+    "related": [
+      "t121",
+      "t122"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t121",
+    "category": "交易機制",
+    "term": "沽空",
+    "en": "Short Selling",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "借入股份出售，期望日後以較低價格買回。",
+    "example": "十元沽出、八元買回，未計費用賺兩元。",
+    "formula": null,
+    "caution": "股價上升可造成很大虧損，且須付借股成本。",
+    "related": [
+      "t122",
+      "t123"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t122",
+    "category": "交易機制",
+    "term": "借股費",
+    "en": "Stock Borrow Fee",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "借入證券通常需要支付的費用。",
+    "example": "難借股票的借股年利率可能大幅上升。",
+    "formula": null,
+    "caution": "費率可變，借股也可能被召回。",
+    "related": [
+      "t123",
+      "t124"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t123",
+    "category": "交易機制",
+    "term": "滑價",
+    "en": "Slippage",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "預期價格與實際成交價格的差異。",
+    "example": "預期十元買入，實際平均十點一元成交。",
+    "formula": "實際成交價 − 參考價格",
+    "caution": "需按買賣方向解讀，亦可能出現有利滑價。",
+    "related": [
+      "t124",
+      "t125"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t124",
+    "category": "交易機制",
+    "term": "停牌",
+    "en": "Trading Halt",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "證券暫時停止交易。",
+    "example": "公司公布重大消息前申請短暫停牌。",
+    "formula": null,
+    "caution": "停牌期間可能無法退出，復牌價格可大幅跳動。",
+    "related": [
+      "t125",
+      "t101"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t125",
+    "category": "交易機制",
+    "term": "印花稅",
+    "en": "Stamp Duty",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "部分市場就證券轉讓收取的稅項。",
+    "example": "港股交易可能須按適用規則繳納印花稅。",
+    "formula": null,
+    "caution": "稅率、豁免及適用產品應查閱最新官方規定。",
+    "related": [
+      "t101",
+      "t102"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：證券交易機制",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t126",
+    "category": "衍生工具",
+    "term": "衍生工具",
+    "en": "Derivative",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "價值取決於股票、指數等相關資產的合約。",
+    "example": "股票期權的價值受到相關股票價格影響。",
+    "formula": null,
+    "caution": "結構、槓桿及到期條款可能令風險與股票不同。",
+    "related": [
+      "t127",
+      "t128"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t127",
+    "category": "衍生工具",
+    "term": "期權",
+    "en": "Option",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "給持有人在指定條件下買入或賣出資產權利的合約。",
+    "example": "買方付期權金取得權利，未必需要行使。",
+    "formula": null,
+    "caution": "賣方承擔履約義務，風險與買方不同。",
+    "related": [
+      "t128",
+      "t129"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t128",
+    "category": "衍生工具",
+    "term": "認購期權",
+    "en": "Call Option",
+    "abbr": "Call",
+    "level": "進階",
+    "explanation": "賦予買方按行使價買入相關資產的權利。",
+    "example": "股票升至一百二十元時，一百元認購期權有內在值。",
+    "formula": null,
+    "caution": "即使股票上升，時間值下跌也可能令期權虧損。",
+    "related": [
+      "t129",
+      "t130"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t129",
+    "category": "衍生工具",
+    "term": "認沽期權",
+    "en": "Put Option",
+    "abbr": "Put",
+    "level": "進階",
+    "explanation": "賦予買方按行使價賣出相關資產的權利。",
+    "example": "股價八十元時，一百元認沽期權有內在值。",
+    "formula": null,
+    "caution": "保護作用取決於數量、到期日與行使價。",
+    "related": [
+      "t130",
+      "t131"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t130",
+    "category": "衍生工具",
+    "term": "行使價",
+    "en": "Strike Price",
+    "abbr": "Strike",
+    "level": "進階",
+    "explanation": "期權合約指定買入或賣出相關資產的價格。",
+    "example": "一百元行使價的認購期權，可按條款以一百元買入。",
+    "formula": null,
+    "caution": "不要與期權本身的市場價格混淆。",
+    "related": [
+      "t131",
+      "t132"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t131",
+    "category": "衍生工具",
+    "term": "到期日",
+    "en": "Expiration Date",
+    "abbr": "Expiry",
+    "level": "進階",
+    "explanation": "衍生合約權利或交易安排終止的日期。",
+    "example": "到期後未能行使的價外期權通常失去價值。",
+    "formula": null,
+    "caution": "最後交易日可能早於到期日。",
+    "related": [
+      "t132",
+      "t133"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t132",
+    "category": "衍生工具",
+    "term": "期權金",
+    "en": "Option Premium",
+    "abbr": "Premium",
+    "level": "進階",
+    "explanation": "買方購買期權支付、賣方收取的價格。",
+    "example": "期權金每股兩元，合約一百股，成本二百元。",
+    "formula": "每股期權金 × 合約股數",
+    "caution": "需另計交易費用及可能的交收要求。",
+    "related": [
+      "t133",
+      "t134"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t133",
+    "category": "衍生工具",
+    "term": "內在值",
+    "en": "Intrinsic Value of Option",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "按當前相關資產價格立即行使所產生的正差額。",
+    "example": "股價一百一十、Call 行使價一百，內在值十元。",
+    "formula": "Call：max(股價−行使價,0)；Put 方向相反",
+    "caution": "期權市場價還包含時間值等因素。",
+    "related": [
+      "t134",
+      "t135"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t134",
+    "category": "衍生工具",
+    "term": "時間值",
+    "en": "Time Value",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "期權價格超出內在值的部分。",
+    "example": "期權價十二元、內在值十元，時間值兩元。",
+    "formula": "期權金 − 內在值",
+    "caution": "臨近到期通常衰減，但實際變化受波幅等影響。",
+    "related": [
+      "t135",
+      "t136"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t135",
+    "category": "衍生工具",
+    "term": "價內",
+    "en": "In the Money",
+    "abbr": "ITM",
+    "level": "進階",
+    "explanation": "期權已有正內在值的狀態。",
+    "example": "股價高於認購期權行使價時，該 Call 為價內。",
+    "formula": null,
+    "caution": "價內不等於持有人扣除成本後已獲利。",
+    "related": [
+      "t136",
+      "t137"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t136",
+    "category": "衍生工具",
+    "term": "價外",
+    "en": "Out of the Money",
+    "abbr": "OTM",
+    "level": "進階",
+    "explanation": "按現價行使沒有正內在值的狀態。",
+    "example": "股價九十元、Call 行使價一百元，屬價外。",
+    "formula": null,
+    "caution": "到期前仍可能有時間值，到期時可全失。",
+    "related": [
+      "t137",
+      "t138"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t137",
+    "category": "衍生工具",
+    "term": "平價",
+    "en": "At the Money",
+    "abbr": "ATM",
+    "level": "進階",
+    "explanation": "相關資產價格接近期權行使價。",
+    "example": "股價約一百元、行使價一百元，稱平價。",
+    "formula": null,
+    "caution": "市場亦可能按遠期價格界定平價。",
+    "related": [
+      "t138",
+      "t139"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t138",
+    "category": "衍生工具",
+    "term": "Delta",
+    "en": "Delta",
+    "abbr": "Δ",
+    "level": "進階",
+    "explanation": "期權價格對相關資產價格微小變動的敏感度。",
+    "example": "Delta 約零點五，股價升一元時期權約升零點五元。",
+    "formula": "期權價格對資產價格的一階變化率",
+    "caution": "Delta 會變，線性近似不適用於大幅變動。",
+    "related": [
+      "t139",
+      "t140"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t139",
+    "category": "衍生工具",
+    "term": "Gamma",
+    "en": "Gamma",
+    "abbr": "Γ",
+    "level": "進階",
+    "explanation": "Delta 對相關資產價格變動的敏感度。",
+    "example": "Gamma 高時，股價小變動也會令 Delta 明顯改變。",
+    "formula": "Delta 對資產價格的變化率",
+    "caution": "近到期的平價期權 Gamma 可能很高。",
+    "related": [
+      "t140",
+      "t141"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t140",
+    "category": "衍生工具",
+    "term": "Theta",
+    "en": "Theta",
+    "abbr": "Θ",
+    "level": "進階",
+    "explanation": "期權理論價格對時間流逝的敏感度。",
+    "example": "其他條件不變，期權買方常因時間流逝損失價值。",
+    "formula": null,
+    "caution": "模型單位可能按日或按年，符號慣例須核對。",
+    "related": [
+      "t141",
+      "t142"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t141",
+    "category": "衍生工具",
+    "term": "Vega",
+    "en": "Vega",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "期權價格對隱含波幅變化的敏感度。",
+    "example": "隱含波幅上升通常提高普通期權的理論價格。",
+    "formula": null,
+    "caution": "不同系統可能以一個百分點波幅變化為單位。",
+    "related": [
+      "t142",
+      "t143"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t142",
+    "category": "衍生工具",
+    "term": "隱含波幅",
+    "en": "Implied Volatility",
+    "abbr": "IV",
+    "level": "進階",
+    "explanation": "由期權市場價格反推出的模型波幅。",
+    "example": "業績前期權變貴，可能反映隱含波幅上升。",
+    "formula": null,
+    "caution": "它反映定價，不是未來實際波幅的保證。",
+    "related": [
+      "t143",
+      "t144"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t143",
+    "category": "衍生工具",
+    "term": "期貨",
+    "en": "Futures",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "約定在未來按合約條件交收資產或差額的標準化合約。",
+    "example": "指數期貨可用現金差額交收。",
+    "formula": null,
+    "caution": "保證金只是按金，損失可能超過最初投入。",
+    "related": [
+      "t144",
+      "t145"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t144",
+    "category": "衍生工具",
+    "term": "保證金",
+    "en": "Margin Requirement",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "交易或維持槓桿合約所需提供的抵押資金。",
+    "example": "期貨價格不利變動後，可能需要追加保證金。",
+    "formula": null,
+    "caution": "不是合約最大損失上限。",
+    "related": [
+      "t145",
+      "t146"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t145",
+    "category": "衍生工具",
+    "term": "窩輪",
+    "en": "Derivative Warrant",
+    "abbr": "Warrant",
+    "level": "進階",
+    "explanation": "由發行人發行、與相關資產掛鈎的認購或認沽衍生權證。",
+    "example": "認購輪價值受正股、波幅、時間等因素影響。",
+    "formula": null,
+    "caution": "包含發行人信用及流通量風險，並非上市公司普通股。",
+    "related": [
+      "t146",
+      "t147"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t146",
+    "category": "衍生工具",
+    "term": "牛熊證",
+    "en": "Callable Bull/Bear Contract",
+    "abbr": "CBBC",
+    "level": "進階",
+    "explanation": "附強制收回機制、與相關資產掛鈎的槓桿產品。",
+    "example": "正股觸及收回價時，牛熊證可被即時強制收回。",
+    "formula": null,
+    "caution": "收回後可能無剩餘價值，不能等待其後反彈。",
+    "related": [
+      "t147",
+      "t148"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t147",
+    "category": "衍生工具",
+    "term": "強制收回事件",
+    "en": "Mandatory Call Event",
+    "abbr": "MCE",
+    "level": "進階",
+    "explanation": "牛熊證相關資產觸及指定收回水平時啟動的終止機制。",
+    "example": "牛證觸及收回價，即使其後回升也不恢復交易。",
+    "formula": null,
+    "caution": "剩餘價值取決於類別及條款，可能為零。",
+    "related": [
+      "t148",
+      "t149"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t148",
+    "category": "衍生工具",
+    "term": "備兌認購",
+    "en": "Covered Call",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "持有相關資產同時沽出認購期權的策略。",
+    "example": "持有一百股並沽出相應一份 Call 收取期權金。",
+    "formula": null,
+    "caution": "限制上升收益，但不能消除股價下跌損失。",
+    "related": [
+      "t149",
+      "t150"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t149",
+    "category": "衍生工具",
+    "term": "保護性認沽",
+    "en": "Protective Put",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "持股同時買入相應認沽期權作下跌保護。",
+    "example": "持有一百股，再買一份涵蓋一百股的 Put。",
+    "formula": null,
+    "caution": "保護有到期日，持續續期需付成本。",
+    "related": [
+      "t150",
+      "t126"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t150",
+    "category": "衍生工具",
+    "term": "槓桿ETF",
+    "en": "Leveraged ETF",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "以衍生工具等尋求指定期間基準倍數回報的 ETF。",
+    "example": "兩倍每日槓桿 ETF 目標是基準每日回報的兩倍。",
+    "formula": null,
+    "caution": "多日複利及每日重設令長期回報不等於簡單倍數。",
+    "related": [
+      "t126",
+      "t127"
+    ],
+    "sources": [
+      {
+        "label": "HKEX：衍生產品",
+        "url": "https://www.hkex.com.hk/Products/Listed-Derivatives?sc_lang=zh-HK"
+      }
+    ]
+  },
+  {
+    "id": "t151",
+    "category": "風險管理",
+    "term": "波動率",
+    "en": "Volatility",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "衡量回報變動幅度的統計指標。",
+    "example": "價格每天大上大落的股票，歷史波動率通常較高。",
+    "formula": "日對數回報標準差 × √252（年化示例）",
+    "caution": "歷史波動未必代表未來，也不完整涵蓋風險。",
+    "related": [
+      "t152",
+      "t153"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t152",
+    "category": "風險管理",
+    "term": "最大回撤",
+    "en": "Maximum Drawdown",
+    "abbr": "MDD",
+    "level": "中階",
+    "explanation": "某期間內由先前高點到其後低點的最大跌幅。",
+    "example": "價格由一百元跌到六十元，回撤為百分之四十。",
+    "formula": "最大化 (此前高點−其後低點) ÷ 此前高點",
+    "caution": "只反映選定歷史期間，延長期間可改變結果。",
+    "related": [
+      "t153",
+      "t154"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t153",
+    "category": "風險管理",
+    "term": "Beta係數",
+    "en": "Beta",
+    "abbr": "β",
+    "level": "中階",
+    "explanation": "資產回報相對基準市場回報變動的敏感度。",
+    "example": "Beta 約一點二代表歷史上對基準較敏感。",
+    "formula": "資產與基準回報協方差 ÷ 基準回報變異數",
+    "caution": "取樣頻率、期間和基準會影響數值。",
+    "related": [
+      "t154",
+      "t155"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t154",
+    "category": "風險管理",
+    "term": "系統性風險",
+    "en": "Systematic Risk",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "影響廣泛市場、難以靠持有更多股票分散的風險。",
+    "example": "利率急升可能同時打擊多個行業估值。",
+    "formula": null,
+    "caution": "跨資產分散也不保證危機時完全免疫。",
+    "related": [
+      "t155",
+      "t156"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t155",
+    "category": "風險管理",
+    "term": "非系統性風險",
+    "en": "Unsystematic Risk",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "主要與個別公司或行業相關的風險。",
+    "example": "一間公司工廠火災影響其業績。",
+    "formula": null,
+    "caution": "分散持股可減輕，但不能消除市場整體風險。",
+    "related": [
+      "t156",
+      "t157"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t156",
+    "category": "風險管理",
+    "term": "分散投資",
+    "en": "Diversification",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "將資金分配到不同風險來源以減少集中曝險。",
+    "example": "同時持有不同地區和行業資產。",
+    "formula": null,
+    "caution": "多隻高度相關股票可能仍十分集中。",
+    "related": [
+      "t157",
+      "t158"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t157",
+    "category": "風險管理",
+    "term": "資產配置",
+    "en": "Asset Allocation",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "決定股票、債券、現金等資產的配置比例。",
+    "example": "將投資分為六成股票、三成債券、一成現金。",
+    "formula": null,
+    "caution": "比例應配合期限及承受能力，需定期檢視。",
+    "related": [
+      "t158",
+      "t159"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t158",
+    "category": "風險管理",
+    "term": "倉位大小",
+    "en": "Position Sizing",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "決定單項投資佔資金的比例或金額。",
+    "example": "十萬元投資組合中，一隻股票投入五千元。",
+    "formula": "單項投資金額 ÷ 組合總值",
+    "caution": "須計及槓桿、相關性及可能無法止蝕的情況。",
+    "related": [
+      "t159",
+      "t160"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t159",
+    "category": "風險管理",
+    "term": "集中度",
+    "en": "Concentration",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "組合對少數資產、行業或因素的依賴程度。",
+    "example": "一半資金投入同一科技股，屬高度集中。",
+    "formula": null,
+    "caution": "多個基金可能持有重複公司，形成隱性集中。",
+    "related": [
+      "t160",
+      "t161"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t160",
+    "category": "風險管理",
+    "term": "再平衡",
+    "en": "Rebalancing",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "把因市場變動而偏離的配置調回目標。",
+    "example": "股票上升至組合八成，賣出部分調回六成。",
+    "formula": null,
+    "caution": "會產生交易成本，亦可能涉及稅務。",
+    "related": [
+      "t161",
+      "t162"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t161",
+    "category": "風險管理",
+    "term": "風險回報比",
+    "en": "Risk-Reward Ratio",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "比較預設可能損失與潛在收益的比率。",
+    "example": "計劃最多虧一元、目標賺三元，風險回報為一比三。",
+    "formula": "計劃損失 ÷ 計劃收益",
+    "caution": "目標與止蝕能否實現並無保證，還需考慮勝率。",
+    "related": [
+      "t162",
+      "t163"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t162",
+    "category": "風險管理",
+    "term": "止蝕",
+    "en": "Stop Loss",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "預先設定減少或結束虧損持倉的條件。",
+    "example": "跌破預設價格後按策略減倉。",
+    "formula": null,
+    "caution": "裂口或流動性不足可令實際損失超過預期。",
+    "related": [
+      "t163",
+      "t164"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t163",
+    "category": "風險管理",
+    "term": "移動止蝕",
+    "en": "Trailing Stop",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "隨有利價格移動而調整的止蝕機制。",
+    "example": "股價上升時，提高距離高點百分之十的止蝕線。",
+    "formula": null,
+    "caution": "短暫波動可能提前觸發，觸發不保證成交價。",
+    "related": [
+      "t164",
+      "t165"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t164",
+    "category": "風險管理",
+    "term": "流動性風險",
+    "en": "Liquidity Risk",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "難以在合理價格及時間內買入或賣出的風險。",
+    "example": "冷門股票急跌時找不到足夠接貨買盤。",
+    "formula": null,
+    "caution": "正常時期的成交量不代表危機時仍有流動性。",
+    "related": [
+      "t165",
+      "t166"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t165",
+    "category": "風險管理",
+    "term": "匯率風險",
+    "en": "Currency Risk",
+    "abbr": "FX Risk",
+    "level": "中階",
+    "explanation": "資產幣種與投資者本位幣之間匯率變動的風險。",
+    "example": "美股上升百分之五，但美元貶值抵銷部分收益。",
+    "formula": null,
+    "caution": "報價貨幣不一定等於公司業務的經濟曝險。",
+    "related": [
+      "t166",
+      "t167"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t166",
+    "category": "風險管理",
+    "term": "信用風險",
+    "en": "Credit Risk",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "對手或發行人無法履約還款的風險。",
+    "example": "債券發行人無法按時支付利息。",
+    "formula": null,
+    "caution": "評級只是意見，並非償還保證。",
+    "related": [
+      "t167",
+      "t168"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t167",
+    "category": "風險管理",
+    "term": "對手風險",
+    "en": "Counterparty Risk",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "交易另一方無法履行合約責任的風險。",
+    "example": "衍生產品發行人倒閉可能影響產品回收。",
+    "formula": null,
+    "caution": "抵押與中央結算可減輕但未必完全消除風險。",
+    "related": [
+      "t168",
+      "t169"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t168",
+    "category": "風險管理",
+    "term": "槓桿風險",
+    "en": "Leverage Risk",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "借貸或衍生曝險放大損益及資金壓力的風險。",
+    "example": "兩倍資金曝險下，資產跌一成可令權益跌約兩成。",
+    "formula": null,
+    "caution": "利息、強平及非線性條款會令結果更差。",
+    "related": [
+      "t169",
+      "t170"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t169",
+    "category": "風險管理",
+    "term": "風險值",
+    "en": "Value at Risk",
+    "abbr": "VaR",
+    "level": "中階",
+    "explanation": "在指定模型、期間與信心水平下估算的損失門檻。",
+    "example": "一天百分之九十五 VaR 為十萬元，是模型估計的分位數。",
+    "formula": null,
+    "caution": "不表示最大可能損失，也未說明超過門檻後會虧多少。",
+    "related": [
+      "t170",
+      "t171"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t170",
+    "category": "風險管理",
+    "term": "預期短缺",
+    "en": "Expected Shortfall",
+    "abbr": "ES CVaR",
+    "level": "中階",
+    "explanation": "超過指定損失分位數時的平均尾部損失估計。",
+    "example": "估算最差百分之五情況下平均會虧多少。",
+    "formula": null,
+    "caution": "對尾部樣本及模型假設十分敏感。",
+    "related": [
+      "t171",
+      "t172"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t171",
+    "category": "風險管理",
+    "term": "夏普比率",
+    "en": "Sharpe Ratio",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "每單位總波動所獲得的超額回報。",
+    "example": "相同回報下，波動較低的組合通常夏普較高。",
+    "formula": "(組合回報−無風險回報) ÷ 回報標準差",
+    "caution": "必須使用一致頻率，非正態回報可能令解讀失真。",
+    "related": [
+      "t172",
+      "t173"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t172",
+    "category": "風險管理",
+    "term": "索提諾比率",
+    "en": "Sortino Ratio",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "以低於目標回報的下行波動衡量風險調整回報。",
+    "example": "只把低於目標的偏離納入風險分母。",
+    "formula": "(組合回報−目標回報) ÷ 下行偏差",
+    "caution": "目標回報及計算方法會改變比率。",
+    "related": [
+      "t173",
+      "t174"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t173",
+    "category": "風險管理",
+    "term": "壓力測試",
+    "en": "Stress Test",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "模擬極端事件對資產或組合的影響。",
+    "example": "測試利率升兩厘、股市跌三成時的損失。",
+    "formula": null,
+    "caution": "假設情境不會涵蓋所有可能危機。",
+    "related": [
+      "t174",
+      "t175"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t174",
+    "category": "風險管理",
+    "term": "相關係數",
+    "en": "Correlation",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "衡量兩組回報線性共同變動程度的指標。",
+    "example": "兩項資產回報相關接近一，往往同方向變動。",
+    "formula": "協方差 ÷ 兩者標準差乘積",
+    "caution": "相關性會隨時間改變，也不表示因果關係。",
+    "related": [
+      "t175",
+      "t151"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t175",
+    "category": "風險管理",
+    "term": "複利",
+    "en": "Compounding",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "收益再投入後，未來回報亦作用於先前收益。",
+    "example": "一百元連續兩年回報一成，變為一百二十一元。",
+    "formula": "期末值 ＝ 本金×(1＋回報率)^期數",
+    "caution": "虧損與費用亦有複合效果，固定回報只是示例。",
+    "related": [
+      "t151",
+      "t152"
+    ],
+    "sources": [
+      {
+        "label": "Investor.gov：Asset Allocation and Diversification",
+        "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      }
+    ]
+  },
+  {
+    "id": "t176",
+    "category": "市場與宏觀",
+    "term": "牛市",
+    "en": "Bull Market",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "市場價格在較長期間普遍上升的狀態。",
+    "example": "大型指數持續上升且市場參與度擴闊。",
+    "formula": null,
+    "caution": "常見百分之二十升幅定義只是慣例，並非統一標準。",
+    "related": [
+      "t177",
+      "t178"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t177",
+    "category": "市場與宏觀",
+    "term": "熊市",
+    "en": "Bear Market",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "市場價格在較長期間普遍下跌的狀態。",
+    "example": "指數自高位回落兩成，常被稱進入熊市。",
+    "formula": null,
+    "caution": "定義與起訖通常事後判定，並非即時訊號。",
+    "related": [
+      "t178",
+      "t179"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t178",
+    "category": "市場與宏觀",
+    "term": "調整",
+    "en": "Market Correction",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "價格自近期高點出現一定程度回落。",
+    "example": "市場常用跌幅約一成描述一次調整。",
+    "formula": null,
+    "caution": "慣例並無統一界線，跌幅可以繼續擴大。",
+    "related": [
+      "t179",
+      "t180"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t179",
+    "category": "市場與宏觀",
+    "term": "市場指數",
+    "en": "Market Index",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "按規則整合一組證券表現的統計指標。",
+    "example": "恒生指數用指定成分股及權重代表部分港股表現。",
+    "formula": null,
+    "caution": "指數未必代表全部市場，也不可直接買入。",
+    "related": [
+      "t180",
+      "t181"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t180",
+    "category": "市場與宏觀",
+    "term": "恒生指數",
+    "en": "Hang Seng Index",
+    "abbr": "HSI",
+    "level": "中階",
+    "explanation": "反映香港上市大型及具代表性公司表現的指數。",
+    "example": "恒指 ETF 以追蹤此指數為投資目標。",
+    "formula": null,
+    "caution": "成分股、權重及編製規則會調整。",
+    "related": [
+      "t181",
+      "t182"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t181",
+    "category": "市場與宏觀",
+    "term": "標普500指數",
+    "en": "S&P 500",
+    "abbr": "SPX",
+    "level": "中階",
+    "explanation": "涵蓋約五百家美國大型上市公司的股票指數。",
+    "example": "大型美股 ETF 常追蹤標普五百指數。",
+    "formula": null,
+    "caution": "按市值加權，少數巨企可有較大影響。",
+    "related": [
+      "t182",
+      "t183"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t182",
+    "category": "市場與宏觀",
+    "term": "納斯達克綜合指數",
+    "en": "Nasdaq Composite",
+    "abbr": "IXIC",
+    "level": "中階",
+    "explanation": "涵蓋納斯達克市場大量上市證券的指數。",
+    "example": "科技公司比重較高，但並非只有科技企業。",
+    "formula": null,
+    "caution": "不可與只含大型非金融公司的納斯達克一百混淆。",
+    "related": [
+      "t183",
+      "t184"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t183",
+    "category": "市場與宏觀",
+    "term": "市值加權",
+    "en": "Market-Capitalization Weighting",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "按成分公司市值或調整市值分配指數權重。",
+    "example": "大型公司上升對指數的影響通常較大。",
+    "formula": null,
+    "caution": "自由流通調整及權重上限會改變實際權重。",
+    "related": [
+      "t184",
+      "t185"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t184",
+    "category": "市場與宏觀",
+    "term": "等權重",
+    "en": "Equal Weighting",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "給每個成分相同目標權重的編製方法。",
+    "example": "五十隻成分股各佔百分之二。",
+    "formula": null,
+    "caution": "價格變動後權重會偏離，需要定期再平衡。",
+    "related": [
+      "t185",
+      "t186"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t185",
+    "category": "市場與宏觀",
+    "term": "利率",
+    "en": "Interest Rate",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "借入資金的成本或存款與債務的回報率。",
+    "example": "利率上升可增加企業借貸成本。",
+    "formula": null,
+    "caution": "政策利率、存款利率及長債收益率並不相同。",
+    "related": [
+      "t186",
+      "t187"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t186",
+    "category": "市場與宏觀",
+    "term": "通脹",
+    "en": "Inflation",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "整體物價水平在一段期間持續上升。",
+    "example": "同一籃子商品由一百元升至一百零三元。",
+    "formula": null,
+    "caution": "不同家庭的實際支出結構可能與平均指數不同。",
+    "related": [
+      "t187",
+      "t188"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t187",
+    "category": "市場與宏觀",
+    "term": "消費物價指數",
+    "en": "Consumer Price Index",
+    "abbr": "CPI",
+    "level": "中階",
+    "explanation": "追蹤一籃子消費商品及服務價格的指數。",
+    "example": "CPI 按年升百分之三，表示該籃子平均價格上升。",
+    "formula": null,
+    "caution": "權重、季節調整及核心口徑須分清。",
+    "related": [
+      "t188",
+      "t189"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t188",
+    "category": "市場與宏觀",
+    "term": "國內生產總值",
+    "en": "Gross Domestic Product",
+    "abbr": "GDP",
+    "level": "中階",
+    "explanation": "一個經濟體在期間內生產最終商品與服務的總值。",
+    "example": "實質 GDP 增長用來觀察扣除物價變動後的經濟活動。",
+    "formula": null,
+    "caution": "初值常修訂，總量增長不等於所有企業盈利增長。",
+    "related": [
+      "t189",
+      "t190"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t189",
+    "category": "市場與宏觀",
+    "term": "採購經理指數",
+    "en": "Purchasing Managers Index",
+    "abbr": "PMI",
+    "level": "中階",
+    "explanation": "透過企業調查衡量活動擴張或收縮的擴散指數。",
+    "example": "PMI 高於五十通常代表較上月擴張。",
+    "formula": null,
+    "caution": "是相對上期的調查方向，不是產出增長百分比。",
+    "related": [
+      "t190",
+      "t191"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t190",
+    "category": "市場與宏觀",
+    "term": "貨幣政策",
+    "en": "Monetary Policy",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "央行調節利率、流動性等以影響經濟的政策。",
+    "example": "央行加息以抑制需求及通脹。",
+    "formula": null,
+    "caution": "傳導有時滯，對不同產業的影響不一。",
+    "related": [
+      "t191",
+      "t192"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t191",
+    "category": "市場與宏觀",
+    "term": "財政政策",
+    "en": "Fiscal Policy",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "政府透過支出、稅收及借貸影響經濟的政策。",
+    "example": "政府增加基建投資以刺激需求。",
+    "formula": null,
+    "caution": "政策落實、財政空間與資源效率都會影響結果。",
+    "related": [
+      "t192",
+      "t193"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t192",
+    "category": "市場與宏觀",
+    "term": "量化寬鬆",
+    "en": "Quantitative Easing",
+    "abbr": "QE",
+    "level": "中階",
+    "explanation": "央行購買資產以影響金融條件及市場流動性的政策。",
+    "example": "央行購買長期國債，可能壓低長債收益率。",
+    "formula": null,
+    "caution": "並不保證資金直接流入股市或推高所有資產。",
+    "related": [
+      "t193",
+      "t194"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t193",
+    "category": "市場與宏觀",
+    "term": "量化緊縮",
+    "en": "Quantitative Tightening",
+    "abbr": "QT",
+    "level": "中階",
+    "explanation": "央行縮減資產持有規模的政策過程。",
+    "example": "到期債券不再全額再投資，資產負債表逐步縮小。",
+    "formula": null,
+    "caution": "與加息是不同工具，影響亦取決於市場環境。",
+    "related": [
+      "t194",
+      "t195"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t194",
+    "category": "市場與宏觀",
+    "term": "收益率曲線",
+    "en": "Yield Curve",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "顯示相近信用質素債券在不同年期的收益率。",
+    "example": "比較兩年與十年國債收益率可看曲線斜率。",
+    "formula": null,
+    "caution": "不同信用及貨幣債券不宜直接混成一條曲線。",
+    "related": [
+      "t195",
+      "t196"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t195",
+    "category": "市場與宏觀",
+    "term": "收益率曲線倒掛",
+    "en": "Inverted Yield Curve",
+    "abbr": "",
+    "level": "中階",
+    "explanation": "短期債券收益率高於長期收益率的狀態。",
+    "example": "兩年國債收益率高於十年國債。",
+    "formula": null,
+    "caution": "歷史上與衰退相關，卻不能精確預測時間或必然性。",
+    "related": [
+      "t196",
+      "t197"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t196",
+    "category": "市場與宏觀",
+    "term": "風險溢價",
+    "en": "Risk Premium",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "承擔額外風險所要求的額外回報。",
+    "example": "股票預期回報高於無風險利率的部分屬股權風險溢價。",
+    "formula": "預期風險資產回報 − 無風險回報",
+    "caution": "預期值不可直接觀察，實際回報可能為負。",
+    "related": [
+      "t197",
+      "t198"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t197",
+    "category": "市場與宏觀",
+    "term": "恐慌指數",
+    "en": "Cboe Volatility Index",
+    "abbr": "VIX",
+    "level": "進階",
+    "explanation": "根據標普五百期權價格估算未來約三十天隱含波幅的指數。",
+    "example": "VIX 上升通常代表期權定價中的預期波動增加。",
+    "formula": null,
+    "caution": "不是股市下跌機率，也不可直接等同 VIX 期貨產品回報。",
+    "related": [
+      "t198",
+      "t199"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t198",
+    "category": "市場與宏觀",
+    "term": "板塊輪動",
+    "en": "Sector Rotation",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "資金或相對表現在不同行業板塊間轉移。",
+    "example": "投資者由高增長科技轉向防守型公用事業。",
+    "formula": null,
+    "caution": "常在事後才容易辨識，追逐輪動可能增加成本。",
+    "related": [
+      "t199",
+      "t200"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t199",
+    "category": "市場與宏觀",
+    "term": "盈利預警",
+    "en": "Profit Warning",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "公司就預期盈利明顯轉差作出的公告。",
+    "example": "公司預計年度盈利按年大跌而發出公告。",
+    "formula": null,
+    "caution": "應閱讀原因、比較基數及一次性因素，勿只看標題。",
+    "related": [
+      "t200",
+      "t176"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  },
+  {
+    "id": "t200",
+    "category": "市場與宏觀",
+    "term": "市場廣度",
+    "en": "Market Breadth",
+    "abbr": "",
+    "level": "進階",
+    "explanation": "觀察有多少股票參與市場升跌的指標集合。",
+    "example": "指數上升但大部分股票下跌，市場廣度可能偏弱。",
+    "formula": null,
+    "caution": "結果取決於樣本範圍，不能單靠一項廣度指標預測。",
+    "related": [
+      "t176",
+      "t177"
+    ],
+    "sources": [
+      {
+        "label": "Federal Reserve：Monetary Policy",
+        "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+    ]
+  }
+]
