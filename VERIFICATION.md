@@ -34,6 +34,8 @@ Playwright CLI，Chromium，1440×1000 桌面及 390×844 手機尺寸。15 項�
 
 ## 正式服務
 
+GitHub Pages 公開網址另完成 18 項瀏覽器驗收：包含以上 15 項，以及手機股票分析頁無溢出、術語分享連結直接載入、斜線鍵快捷搜尋。最終 Pages workflow 與部署均成功。
+
 - GitHub Pages：https://freedomxjayden-web.github.io/stock-atlas/
 - Cloudflare Worker：https://stock-atlas-api.stock-atlas.workers.dev
 - 由正式 Worker 搭配 Pages Origin 成功查詢 `700` 及 `AAPL`，兩者均取得價格、年度財報與 100% 評分覆蓋率。
