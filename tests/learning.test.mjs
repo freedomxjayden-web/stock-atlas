@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {LESSONS,readProgress,writeProgress,blankProgress,canComplete} from '../site/learning.js';
+import {readFileSync} from 'node:fs';
+import {requestStock} from '../site/request.js';
+test('lesson terms exist in the authoritative glossary',()=>{const terms=JSON.parse(readFileSync(new URL('../site/data/terms.json',import.meta.url)));for(const l of LESSONS)for(const id of l.terms)assert(terms.some(t=>t.id===id));});
+test('completion needs reading, correct understanding and practical tasks',()=>{const p=blankProgress(),l=LESSONS[3];p.read=[...l.terms];p.answers[l.id]=l.answer;assert(!canComplete(p,l));p.tasks=l.tasks.map((_,i)=>l.id+'-'+i);assert(canComplete(p,l));});
+test('progress validates versions, ids and completion; storage denial is optional',()=>{const p=blankProgress();p.completed=['market'];p.read=['bad'];const storage={getItem:()=>JSON.stringify(p)};assert.deepEqual(readProgress(storage).completed,[]);assert.deepEqual(readProgress({getItem:()=>'{'}),blankProgress());assert.equal(writeProgress(p,{setItem:()=>{throw Error();}}),false);});
+for(const status of [400,429,502])test(`stock request ${status} has actionable message`,async()=>{await assert.rejects(requestStock('test',{fetcher:async()=>new Response('{}',{status})}),/核對|一分鐘|上游/);});
+test('aborted request and timeout release network/body reads',async()=>{const fetcher=(_,{signal})=>new Promise((_,reject)=>{const end=()=>reject(new DOMException('aborted','AbortError'));if(signal.aborted)end();else signal.addEventListener('abort',end);});await assert.rejects(requestStock('test',{timeout:5,fetcher}),/逾時/);const c=new AbortController();c.abort();await assert.rejects(requestStock('test',{signal:c.signal,fetcher}),{name:'AbortError'});});
+test('invalid response is rejected instead of rendering mixed or incomplete data',async()=>{await assert.rejects(requestStock('test',{fetcher:async()=>new Response('{}')}),/未完整/);});

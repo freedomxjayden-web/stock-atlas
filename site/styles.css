@@ -18,3 +18,28 @@ dialog{border:1px solid #dce3d4;background:#fbfcf8;color:var(--ink);border-radiu
 .quick-research .sample-symbols{width:auto;height:auto;background:none;display:block;white-space:nowrap}
 @media(max-width:1030px){.quick-research .sample-symbols{display:none}}
 @media(max-width:760px){.icon-button.mobile-menu{display:flex}}
+
+.learning-entry {display:block; padding:20px 24px; border:1px solid #c6d8bc; border-radius:12px; margin:20px 0; background:#f5f8ef; line-height:1.8;}
+.learning-grid {display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px;}
+.lesson {padding:26px; border:1px solid #d4dfcb; border-radius:16px; background:#fff; min-width:0;}
+.lesson h2 {font-size:24px;margin:12px 0;}
+.lesson p,.lesson li,.reading-task {line-height:1.8;}
+.lesson-reading {list-style:none;padding:0;}
+.lesson-reading li {margin:12px 0;}
+.lesson-reading label,.reading-task {display:flex;align-items:center;gap:10px; min-height:44px;}
+.lesson-reading li label {display:inline-flex; margin-right:12px;}
+.lesson input {width:20px;height:20px;flex-shrink:0;accent-color:#466f35;}
+.lesson fieldset {border:0;padding:16px 0;margin:12px 0;min-width:0;}
+.lesson legend {font-weight:700;line-height:1.7;}
+.lesson-answer {display:block;text-align:left; width:100%;padding:12px 14px; min-height:44px; margin:10px 0;background:#f6f8f2;border:1px solid #cad5bf;border-radius:8px;font:inherit;line-height:1.7;color:#243d2c;}
+.lesson-answer[aria-pressed=true] {border:2px solid #466f35;background:#edf4e6;}
+.lesson-feedback {padding:12px;border-left:3px solid #466f35;background:#f6f8f2;}
+.lesson-research {display:flex;gap:10px;flex-wrap:wrap;}
+.lesson-requirement {font-size:13px;color:#53644e;}
+.lesson button:disabled {opacity:.6;cursor:default;}
+.learning-reset {margin:28px 0;line-height:1.8;}
+.learning-reset summary {min-height:44px;cursor:pointer;}
+.data-status {font-size:13px;line-height:1.7;color:#53644e;overflow-wrap:anywhere;}
+.portfolio-return {display:flex;min-height:44px;align-items:center;padding:12px 24px;color:#e1edd9;}
+@media(max-width:1050px) {.learning-grid {grid-template-columns:1fr;}}
+@media(max-width:480px) {.lesson {padding:18px;} .page-title-row {flex-wrap:wrap;gap:14px;} .small-badge {white-space:normal;} }

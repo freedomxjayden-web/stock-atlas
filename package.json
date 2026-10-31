@@ -1,10 +1,12 @@
 {
   "name": "stock-atlas",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "繁體中文股票術語庫及港美股分析",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "test": "node --test tests/*.test.mjs",
@@ -13,5 +15,7 @@
     "deploy:worker": "wrangler deploy",
     "worker:dev": "wrangler dev --port 8788"
   },
-  "devDependencies": {"wrangler": "4.152.0"}
+  "devDependencies": {
+    "wrangler": "4.152.0"
+  }
 }
